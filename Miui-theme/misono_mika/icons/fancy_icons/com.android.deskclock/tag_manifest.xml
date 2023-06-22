@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Icon width="168" height="168" frameRate="10" screenWidth="1080" resDensity="480" extraResourcesDensity="320,440,480" extraResources="sw1536-den320:den440:1,sw1200-den320:den320:1" extraScaleByDensity="320:0.7262,440:1" extraScales="sw1536-den320:1,sw1200-den320:0.7262" useVariableUpdater="DateTime.Minute">
+	<!-- 时钟 -->
+	
+	<Image x="0" y="0" src="clock_bg.png" />
+	<Image x="84" y="84" align="center" alignV="center" pivotX="5" pivotY="84" rotation="#hour12*30+#minute/2" src="hour.png" />
+	<Image x="84" y="84" align="center" alignV="center" pivotX="5" pivotY="84" rotation="#time_sys%3600000*0.0001" src="minute.png" />
+	
+</Icon>

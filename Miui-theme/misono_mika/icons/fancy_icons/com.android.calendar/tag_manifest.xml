@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon width="168" height="168" frameRate="10" screenWidth="1080" resDensity="480" extraResourcesDensity="320,440,480" extraResources="sw1536-den320:den440:1,sw1200-den320:den320:1" extraScaleByDensity="320:0.7262,440:1" extraScales="sw1536-den320:1,sw1200-den320:0.7262" useVariableUpdater="DateTime.Day">
+	<!-- 日历 -->
+	<Image x="0" y="0" src="calendar_bg.png" />
+	<Image x="84" y="38" align="center" alignV="center" src="week.png" srcid="#day_of_week" alpha="186"/>
+	<Time x="84" y="99" align="center" alignV="center" src="date.png" format="dd"/>
+</Icon>

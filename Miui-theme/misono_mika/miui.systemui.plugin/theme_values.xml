@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MIUI_Theme_Values template="LightTemplate">
+  <color name="qs_text_enabled_color" >#ffdd839e</color>
+  <color name="toggle_slider_progress_color" >#f2f4b8ca</color>
+</MIUI_Theme_Values>
