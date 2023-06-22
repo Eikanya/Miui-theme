@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<MIUI_Theme_Values template="LightTemplate">
+
+<!--开关背景-->
+<color name="miuix_appcompat_sliding_button_bar_on_light">#ddFFE6AE</color>
+<color name="sliding_button_bar_on_light" package="miui">#ddFFE6AE</color>
+
+
+
+
+<!-- 电池界面 -->
+<color name="pc_main_battery_view_background_higher_20">#99AEFF5D</color>电池透明
+<color name="pc_main_battery_view_background_lower_20">#99FFBFBB</color>电池透明
+<color name="pc_main_activity_background_color">#00000000</color>电池界面大背景透明
+<color name="pc_battery_statics_chart_color_to">#00000000</color>电池曲线图背景
+<color name="v_bg_color">#00000000</color>病毒扫描框框背景颜色
+<color name="card_bg_color">#00000000</color>主界面框框背景颜色
+<color name="securityscan_bgcolor">#00000000</color>大背景颜色
+ <color name="app_manager_line_bg_color">#00000000</color>分割线颜色
+<color name="pc_battery_item_normal_color">#00000000</color>耗电优化大背景透明 
+
+ 
+  <color name="notification_title_text_color">#00000000</color>
+  <color name="notification_title_divide_color">#00000000</color>
+  
+  <integer name="window_translucent_status" package="miui">#00000000</integer>
+  <color name="optmizing_bg">#00ffffff</color>
+ <drawable name="divider">#00000000</drawable>
+<integer name="window_translucent_status" package="miui">#00000000</integer>
+<color name="separator_line_light_gray">#00000000</color>
+<color name="app_manager_white">#00000000</color>	  
+<color name="gamebooster_bgcolor">#00000000</color>
+<color name="first_aid_kit_bgcolor">#00000000</color>
+<color name="white" package="miui">#00000000</color>
+<color name="pc_main_scan_backgound_color">#00000000</color>
+
+<string name="app_name_securitycenter">手机管家</string>
+<string name="menu_text_antivirus">手机管家</string>
+<string name="app_name_securitycenter">手机管家</string>
+<color name="optmizing_bg">#00ffffff</color>
+  
+  <color name="bg_camera_occupy">#ff00ffff</color>相机背景
+<color name="bg_location_occupy">#ff33ff00</color>定位背景
+<color name="bg_audio_occupy">#ff1a9390</color>麦克风背景
+<color name="pc_main_button_color">#66f5f5f5</color>一键省电按钮背景
+
+<string name="auto_booster_suc"> </string>
+<string name="gb_performance_tips">高发热</string>
+<string name="gb_performance_balance_tips">低性能</string>
+
+<color name="miuix_preference_white">#00000000</color>
+
+
+
+<color name="nd_step_dial_bg_color">#99000000</color>
+<color name="nd_speed_dial_bg_color">#99EAEAEA</color>
+<color name="gb_privacy_dialog_title_color">#99ffffff</color>
+
+
+
+
+<dimen name="gb_vc_record_circle_size">0dp</dimen>
+<dimen name="gamebox_second_recent_content_app_h">0dp</dimen>
+
+
+
+<!--固定版侧边栏-->
+<color name="monitor_line_color">#99000000</color>
+<!--移动版侧边栏-->
+<color name="sidebar_line_color">#99000000</color>
+<color name="sidebar_line_color_dark">#99000000</color>
+<color name="sidebar_line_color_light">#99000000</color>
+
+
+
+
+
+<color name="app_behavior_list_head_bg">#00212122</color>
+<color name="app_manager_white..">#00242425</color>
+<color name="pc_main_scan_backgound_color">#0024133C</color>
+
+<color name="pc_main_card_item_background">#00ffffff</color>
+<color name="pc_normal_item_background">#005FDF4A</color>
+<color name="pc_main_activity_background_color">#00843FB5</color>
+<color name="miuix_preference_white">#00987DF7</color>
+<color name="white" package="miui">#008D7E73</color>
+
+<color name="app_manager_drop_item_selected_color">#00119B80</color>
+<color name="app_manager_drop_item_normal_color">#0006473B</color>
+
+<color name="v_background_color....">#00222224</color>
+
+<color name="pc_main_card_split_line_color">#00000000</color>
+
+
+<color name="pm_dialog_item_normal">#00366F44</color>
+<color name="na_nd_bg">#00ededed</color>
+<color name="storage_app_detail_bg">#00762752</color>
+<color name="pc_battery_consume_analysis_background">#0085BDC0</color>
+<color name="storage_activity_main_bg">#00000000</color>
+<color name="storage_main_top_title_bg">#00598624</color>
+<color name="perm_selected_light">#00469609</color>
+<color name="miuix_preference_first_last_divider_line_light">#00B68918</color>
+
+<color name="notification_mask_color">#00BC34FC</color>
+<color name="pp_video_white">#00212122</color>
+
+<color name="pp_warning_msg_bg_color">#00000000</color> <!--фон под иконками в конфиденциальности активна-->
+<color name="pp_warning_msg_bg_unable_color_ll">#00000000</color>
+<color name="miuix_appcompat_sliding_button_bar_on_dark">#00000000</color>
+<color name="miuix_appcompat_sliding_button_bar_off_dark">#00000000</color>
+
+<color name="miuix_preference_checkable_item_fill_color_checked_light">#00359BC9</color>
+<color name="miuix_preference_checkable_item_fill_color_normal_light">#00805A5C</color>
+
+<color name="xspace_list_title">#00ffffff</color>
+
+<color name="miuix_appcompat_white">#00F76353</color>
+<color name="app_behavior_list_head_bg">#001E2125</color>
+ <color name="applock_list_view_header">#001E2125</color>
+
+
+<color name="pc_float_action_button">#00C133A0</color>
+
+<color name="miuix_appcompat_dropdown_popup_list_item_bg_checked_light">#00000000</color>
+<color name="miuix_appcompat_dropdown_popup_list_item_bg_checked_dark">#00000000</color>
+
+<color name="ew_monitor_pure_bg..">#00993092</color>
+
+
+
+
+
+
+
+
+<color name="ad_color_item_btn_text">#990000ff</color>
+<color name="app_manager_running_text_color">#99000000</color>
+<color name="bg_pm_app_permission_ok_button_normal">#99ffffff</color>
+<color name="bg_select_color">#99ffffff</color>
+<color name="btn_rect_text_color">#99ff0000</color>
+<color name="color_dc_storage_total">#99ffffff</color>
+<color name="first_aid_box_summary_textcolor">#99ffffff</color>
+<color name="icon_un_select_color">#99ffffff</color>
+<color name="main_btn_action_bule">#99ffffff</color>
+
+
+
+<color name="storage_app_detail_item_bg_normal">#00000000</color>文字背景之一
+
+
+
+
+
+
+
+
+<color name="white">#ff4B5CC4</color>
+
+
+
+<color name="gamebox_func_text">#ff8C4356</color>
+
+
+
+
+
+
+<color name="qr_bg_pressed_color">#99F2F2F2</color>
+<color name="pm_dialog_item_pressed">#99F2F2F2</color>
+<color name="font_size_view_background">#99F2F2F2</color>
+<color name="bh_gray_f2_daynight">#99F2F2F2</color>
+<color name="app_manager_pressed_color">#99F2F2F2</color>
+<color name="apk_list_item_background_pressed">#99F2F2F2</color>
+<color name="v_bg_color_p">#99F2F2F2</color>
+
+<color name="miuix_appcompat_dialog_bg_color_light">#00000000</color>
+ 
+<color name="miuix_appcompat_button_bg_primary_color_normal_light">#00000000</color>
+<color name="miuix_appcompat_button_bg_color_normal_light">#00000000</color>
+
+</MIUI_Theme_Values>

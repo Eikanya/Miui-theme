@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<!--混淆对应-->
+<drawable name="CL.9.png">drawable-xxhdpi/window_bg_light.9.png</drawable>
+<drawable name="CLD.9.png">drawable-xxhdpi/window_bg_light.9.png</drawable>
+<drawable name="n31.9.png">drawable-xxhdpi/miuix_appcompat_immersion_window_bg_light.9.png</drawable>
+<drawable name="NQ0.9.png">drawable-xxhdpi/miuix_appcompat_dialog_round_bg_light.9.png</drawable>
+<drawable name="CpL.9.png">drawable-xxhdpi/miuix_appcompat_dialog_round_bg_light.9.png</drawable>
+<drawable name="Qit.9.png">drawable-xxhdpi/miuix_appcompat_dialog_round_bg_light.9.png</drawable>
+
+
+
+<drawable name="uLX.png">drawable-xxhdpi/battery_low.png</drawable>
+<drawable name="t4q.png">drawable-xxhdpi/battery_low.png</drawable>
+
+
+
+<drawable name="Pp1.9.png">drawable-xxhdpi/splash_main.9.png</drawable>
+
+<drawable name="TNA.webp">D5B.png</drawable>
+
+<drawable name="hif.webp">Mg5.png</drawable>
+
+<drawable name="gZb.9.png">drawable-xxhdpi/gamemode_toast_bg.9.png</drawable>
+<drawable name="QdD.9.png">drawable-xxhdpi/gamemode_toast_bg.9.png</drawable>
+
+<drawable name="GXA.png">drawable-xxhdpi/gamemode_toast_logo.png</drawable>
+<drawable name="z5d.png">drawable-xxhdpi/gamemode_toast_logo.png</drawable>
+
+<drawable name="1yG.webp">drawable-xxhdpi/gb_bg_performance.png</drawable>
+<drawable name="_LY.webp">drawable-xxhdpi/gb_bg_performance.png</drawable>
+
+<drawable name="NQr.9.png">drawable-xxhdpi/gb_settings_tab_bg.9.png</drawable>
+
+<!--警告⚠表示-->
+<drawable name="0-Q.png">drawable-xxhdpi/icon_warnning.png</drawable>
+<drawable name="zHV.png">drawable-xxhdpi/icon_warnning.png</drawable>
+<drawable name="LqF.png">drawable-xxhdpi/icon_warnning.png</drawable>
+<drawable name="AXw.png">drawable-xxhdpi/icon_warnning.png</drawable>
+<drawable name="tgB.png">drawable-xxhdpi/icon_warnning.png</drawable>
+<drawable name="ynB.png">drawable-xxhdpi/icon_warnning.png</drawable>
+<drawable name="Ypg.png">drawable-xxhdpi/icon_warnning.png</drawable>
+<drawable name="Mcp.png">drawable-xxhdpi/icon_warnning.png</drawable>
+
+<drawable name="TgO.9.png">drawable-xxhdpi/shape_new_turbo_bg.9.png</drawable>
+
+
+<drawable name="GXA.png">drawable-xxhdpi/gamemode_toast_logo.png</drawable>
+<drawable name="6Rj.9.png">drawable-xxhdpi/gd_shape_dock_main_bg.9.png</drawable>
+<drawable name="文件.png">drawable-xxhdpi/次级.png</drawable>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 大背景 -->
+	<drawable name="settings_window_bg_light.9.png">window_bg_light.9.png</drawable>
+	<!-- 顶栏 -->
+	<drawable name="action_bar_embeded_tabs_bg_light.9.png">action_bar_bg_light.9.png</drawable>
+	<drawable name="action_bar_title_stack_bg_light.9.png">action_bar_bg_light.9.png</drawable>
+	<!-- 底栏 -->
+	<drawable name="action_bar_split_bg_expanded_light.9.png">action_bar_split_bg_light.9.png</drawable>
+	<!-- 设置列表 有标题 -->
+	<drawable name="preference_category_background_light.9.png">preference_category_background.9.png</drawable>
+	<drawable name="preference_category_background_first_light.9.png">preference_category_background_first.9.png</drawable>
+	<!-- 头像 -->
+	<drawable name="ic_contact_list_picture2.png">ic_contact_list_picture.png</drawable>
+	<drawable name="ic_contact_list_picture3.png">ic_contact_list_picture.png</drawable>
+	<drawable name="ic_contact_list_picture4.png">ic_contact_list_picture.png</drawable>
+	<drawable name="ic_contact_sp_picture.png">ic_contact_list_picture.png</drawable>
+	<drawable name="ic_contact_unknown_picture.png">ic_contact_list_picture.png</drawable>
+	<drawable name="ic_contact_group_photo.png">ic_contact_list_picture.png</drawable>
+	<!-- 上弹窗 -->
+	<drawable name="pop_up_window_list_bg.9.png">dropdown_listview_bg_light.9.png</drawable>
+	<!-- 刷新 -->
+	<drawable name="progressbar_indeterminate_circle_small_light.png">progressbar_indeterminate_circle_light.png</drawable>
+
+	<!-- 近手弹窗 上下箭头 -->
+	<drawable name="miuix_compat_arrow_up_down.png">miuix_compat_arrow_up_down_integrated.png</drawable>
+
+	<!-- MIUIX -->
+	<!-- 大背景 -->
+	<drawable name="miuix_appcompat_window_bg_light.9.png" package="miui">window_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_settings_window_bg_light.9.png" package="miui">window_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_window_bg_secondary_light.9.png" package="miui">window_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_window_search_mask.9.png" package="miui">window_search_mask.9.png</drawable>
+	<!-- 近手弹窗 上下箭头 -->
+	<drawable name="miuix_appcompat_arrow_up_down_integrated.png" package="miui">miuix_compat_arrow_up_down_integrated.png</drawable>
+	<!-- 近手弹窗列表选中√ -->
+	<drawable name="miuix_appcompat_btn_radio_arrow_on.png" package="miui">btn_radio_on_light.png</drawable>
+	<!-- 顶栏背景+短信对话页顶栏背景（可透明） -->
+	<drawable name="miuix_appcompat_action_bar_bg_light.9.png" package="miui">action_bar_bg_light.9.png</drawable>
+	<!-- 编辑模式顶栏背景（不可透明） -->
+	<drawable name="miuix_appcompat_action_mode_bg_light.9.png" package="miui">action_mode_bg_light.9.png</drawable>
+	<!-- 搜索条背景 （可透明） -->
+	<drawable name="miuix_appcompat_search_mode_bg_light.9.png" package="miui">search_mode_bg_light.9.png</drawable>
+	<!-- 返回按钮 不生效-->
+	<!-- <drawable name="miuix_appcompat_action_bar_back_light.png" package="miui">action_bar_back_light.png</drawable> -->
+	<!-- 更多菜单按钮 -->
+	<drawable name="miuix_appcompat_action_mode_immersion_more_light.png" package="miui">action_mode_immersion_more_light.png</drawable>
+	<!-- 编辑模式取消按钮 -->
+	<drawable name="miuix_appcompat_action_mode_title_button_cancel_light.png" package="miui">action_mode_title_button_cancel_light.png</drawable>
+	<!-- 编辑模式选择全部不可按按钮 -->
+	<drawable name="miuix_appcompat_action_mode_title_button_select_all_disable_light.png" package="miui">action_mode_title_button_select_all_disable_light.png</drawable>
+	<!-- 编辑模式选择全部常态按钮 -->
+	<drawable name="miuix_appcompat_action_mode_title_button_select_all_normal_light.png" package="miui">action_mode_title_button_select_all_normal_light.png</drawable>
+	<!-- 编辑模式取消全部不可按按钮 -->
+	<drawable name="miuix_appcompat_action_mode_title_button_deselect_all_disable_light.png" package="miui">action_mode_title_button_deselect_all_disable_light.png</drawable>
+	<!-- 编辑模式取消全部常态按钮 -->
+	<drawable name="miuix_appcompat_action_mode_title_button_deselect_all_normal_light.png" package="miui">action_mode_title_button_deselect_all_normal_light.png</drawable>
+	<!-- 编辑模式确认按钮 -->
+	<drawable name="miuix_appcompat_action_mode_title_button_confirm_light.png" package="miui">action_mode_title_button_confirm_light.png</drawable>
+	<!-- 编辑模式完成按钮 -->
+	<drawable name="miuix_appcompat_action_mode_immersion_done_light.png" package="miui">action_mode_immersion_done_light.png</drawable>
+	<!-- 编辑模式删除按钮 -->
+	<drawable name="miuix_appcompat_action_mode_title_button_delete_light.png" package="miui">action_mode_title_button_delete_light.png</drawable>
+	<!-- 搜索结果顶栏背景 -->
+	<drawable name="miuix_appcompat_search_mode_input_bg_light.9.png" package="miui">search_mode_input_bg_light.9.png</drawable>
+	<!-- 底栏背景编辑模式，不可透明 -->
+	<drawable name="miuix_appcompat_action_bar_split_bg_expanded_light.9.png" package="miui">action_bar_split_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_action_bar_split_bg_light.9.png" package="miui">action_bar_split_bg_light.9.png</drawable>
+	<!-- 底部弹窗背景 -->
+	<drawable name="miuix_appcompat_dialog_bg_light.9.png" package="miui">dialog_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_list_menu_bg_light.9.png" package="miui">list_menu_bg_light.9.png</drawable>
+	<!-- 二维码名片分享按钮常态 -->
+	<drawable name="miuix_appcompat_btn_bg_warn_single_normal_light.9.png" package="miui">btn_bg_warn_single_normal_light.9.png</drawable>
+	<!-- 二维码名片分享按钮按下 -->
+	<drawable name="miuix_appcompat_btn_bg_warn_single_pressed_light.9.png" package="miui">btn_bg_warn_single_pressed_light.9.png</drawable>
+	<!-- 文本输入框 -->
+	<drawable name="miuix_appcompat_edit_text_bg_light.9.png" package="miui">edit_text_bg_dialog_light.9.png</drawable>
+	<!-- 全部通话、所有联系人弹窗背景 -->
+	<drawable name="miuix_appcompat_dropdown_listview_bg_light.9.png" package="miui">dropdown_listview_bg_light.9.png</drawable>
+	<!-- 近手弹窗、右上角更多菜单背景若无特殊设计，建议不替换素材资源 -->
+	<drawable name="miuix_appcompat_immersion_window_bg_light.9.png" package="miui">immersion_window_bg_light.9.png</drawable>
+	<!-- 通话顶部设置按钮 -->
+	<drawable name="miuix_appcompat_icon_settings_light.png" package="miui">icon_settings_light.png</drawable>
+	<!-- 首页列表背景常态 -->
+	<drawable name="miuix_appcompat_list_item_bg_normal_light.9.png" package="miui">list_item_bg_normal_light.9.png</drawable>
+	<!-- 首页列表背景二态 -->
+	<drawable name="miuix_appcompat_list_item_bg_pressed_light.9.png" package="miui">list_item_bg_pressed_light.9.png</drawable>
+	<!-- 首页列表背景选中 -->
+	<drawable name="miuix_appcompat_list_item_bg_selected_light.9.png" package="miui">list_item_bg_selected_light.9.png</drawable>
+	<!-- 联系人我的群组右下角按钮背景 -->
+	<drawable name="miuix_appcompat_action_button_main_bg.png" package="miui">action_button_main_bg_light.png</drawable>
+	<!-- 列表文字头像背景 -->
+	<drawable name="word_photo_bg_light.png" package="miui">word_photo_bg.png</drawable>
+	<!-- 列表头像边框 -->
+	<drawable name="ic_contact_photo_fg.png" package="miui">ic_contact_photo_fg.png</drawable>
+	<!-- 右箭头常态 -->
+	<drawable name="miuix_appcompat_arrow_right.png" package="miui">arrow_right_normal.png</drawable>
+	<drawable name="miuix_appcompat_sliding_btn_bg_light.png" package="miui">sliding_btn_bg_light.png</drawable>
+	<!-- 搜索删除按钮 不生效-->
+	<drawable name="miuix_appcompat_edit_text_clear_btn_light.png" package="miui">edit_text_search_clear_btn_on_light.png</drawable> -->
+	<!-- 搜索放大镜 不生效-->
+   <drawable name="miuix_appcompat_ic_edit_text_search.png" package="miui">edit_text_search.png</drawable> -->
+	<!-- 刷新 -->
+	<drawable name="miuix_appcompat_progressbar_indeterminate_circle_light.png" package="miui">progressbar_indeterminate_circle_light.png</drawable> -->
+	<!-- 输入框上箭头 下箭头 不生效 -->
+	<drawable name="btn_inline_shrink_normal_light_vector.png">btn_inline_shrink_normal_light.png</drawable> -->
+ <drawable name="btn_inline_expand_normal_light_vector.png">btn_inline_expand_normal_light.png</drawable> -->
+	<!-- 搜索条 -->
+	<drawable name="miuix_appcompat_search_mode_edit_text_bg_light.9.png" package="miui">search_mode_edit_text_bg_light.9.png</drawable>
+	<!-- 新建群组+号 待测试，等业务升级miux最新 -->
+	<drawable name="miuix_appcompat_fab_empty_holder.png" package="miui">action_button_main_new_light.png</drawable>
+	<!-- 文本选中手柄左中右 -->
+	<drawable name="miuix_appcompat_text_cursor_light.9.png" package="miui">text_cursor.9.png</drawable>
+	<drawable name="miuix_appcompat_text_select_handle_left_light.9.png" package="miui">text_select_handle_left.9.png</drawable>
+	<drawable name="miuix_appcompat_text_select_handle_middle_light.9.png" package="miui">text_select_handle_middle.9.png</drawable>
+	<drawable name="miuix_appcompat_text_select_handle_right_light.9.png" package="miui">text_select_handle_right.9.png</drawable>
+
+
+
+
+
+
+
+
+</MIUI_Theme_Values>
+

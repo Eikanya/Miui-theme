@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Icon extraResources="sw1536-den320:den440:1,sw1200-den320:den320:1" extraResourcesDensity="320,440,480" extraScaleByDensity="320:0.7262,440:1" extraScales="sw1536-den320:1,sw1200-den320:0.7262" frameRate="10" height="168" resDensity="480" screenWidth="1080" useVariableUpdater="DateTime.Minute" width="168">
+  <!-- weather -->
+
+  <VariableBinders>
+    <ContentProviderBinder columns="city_id,city_name,temperature" countName="hasweather" name="weather" uri="content://weather/actualWeatherData/1">
+      <Variable column="temperature" name="weather_temperature" type="int"/>
+    </ContentProviderBinder>
+  </VariableBinders>
+  <Image src="weather_bg.png" x="0" y="0"/>
+  <ImageChars charNameMap="00,11,22,33,44,55,66,77,88,99,°d,-m" space="2" src="num.png" string="#weather_temperature+&apos;°&apos;" x="72-42" y="84"/>
+</Icon>

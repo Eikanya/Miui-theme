@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+  <!-- 搜索框背景 -->
+  <drawable name="bg_search_bar_dark.9.png">bg_search_bar_light.9.png</drawable>
+
+  <!-- 搜索按钮、小爱同学按钮 -->
+  <drawable name="icon_search_dark.png">icon_search_light.png</drawable>
+  <drawable name="icon_xiaoai_dark.png">icon_xiaoai_light.png</drawable>
+</MIUI_Theme_Values>
