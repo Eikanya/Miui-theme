@@ -10,6 +10,5 @@
 	<description>
 ［misono_mika］圣园未花
 </description>
-	<moduleVersion>com.android.contacts:0.0.1;com.android.mms:0.0.1;com.android.settings:0.0.1;com.android.systemui:0.0.1;com.miui.home:0.0.1;com.miui.notification:0.0.1;com.miui.securitycenter:0.0.1;framework-res:0.0.1;</moduleVersion>
 	<miuiAdapterVersion>2.0</miuiAdapterVersion>
 </MIUI-Theme>

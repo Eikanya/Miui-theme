@@ -10,28 +10,28 @@
 		</ContentProviderBinder>
 	</VariableBinders>
 
-	<Image x="30" y="-500" w="1020" h="1020" src="bg.webp" />
+	<Image x="30" y="0" w="1020" h="1020"  src="bg.webp" />
 
 	<!-- 时间、日期、农历 -->
-	<Group y="1050">
-		<DateTime x="540" align="center" alignV="center" color="#efc6cc" size="150" formatExp="ifelse(#time_format,'HH:mm','hh:mm')" fontFamily="mitype-normal"/>
-		<DateTime x="540" y="100" align="center" alignV="center" color="#efc6cc" size="50" format="M月d日 E"/>
-		<DateTime x="540" y="170" align="center" alignV="center" color="#efc6cc" size="50" format="YY年 N月e" visibility="#lunar_calendar_enable"/>
+	<Group y="300">
+		<DateTime x="540" align="center" alignV="center" color="#dc72a2" size="150" formatExp="ifelse(#time_format,'HH:mm:ss','hh:mm:ss')" fontFamily="mitype-normal"/>
+		<DateTime x="540" y="120" align="center" alignV="center" color="#dc72a2" size="50" format="M月d日 E"/>
+		<DateTime x="540" y="150" align="center" alignV="center" color="#dc72a2" size="50" format="YY年 N月e" visibility="#lunar_calendar_enable"/>
 	</Group>
 	<!-- 电量 -->
-	<Var name="batteryColor" type="string" expression="ifelse(#battery_state==1||#battery_state==3,'#ff24D96F','#ffffffff')" />
-	<Group x="540-#batteryLevel.text_width/2-10" y="1100-!#lunar_calendar_enable*60" w="76" h="34" align="center" alignV="center" visibility="#battery_enable">
+	<Var name="batteryColor" type="string" expression="ifelse(#battery_state==1||#battery_state==3,'#d1467e','#ffffffff')" />
+	<Group x="540-#batteryLevel.text_width/2-10" y="600-!#lunar_calendar_enable*60" w="76" h="34" align="center" alignV="center" visibility="#battery_enable">
 		<Image x="0" y="0" src="battery/frame.png" />
 		<Group x="8" y="8" w="0.54*#battery_level" h="18" clip="true" >
 			<Rectangle w="54" h="18" fillColor="@batteryColor" cornerRadius="3"/>
 		</Group>
 		<Image x="35" y="17" align="center" alignV="center" src="battery/charge.png" visibility="#battery_state==1||#battery_state==3" />
-		<Text name="batteryLevel" x="96" y="17" alignV="center" color="#ffffffff" size="42" textExp="#battery_level+'%'"/>
+		<Text name="batteryLevel" x="96" y="17" alignV="center" color="#ffffffff" size="50" textExp="#battery_level+'%'"/>
 	</Group>
 
 	<!-- 通知图标之间的间隙 -->
 	<Var name="noticeApp" type="string[]" const="true" expression="" values="'com.android.contacts,com.android.contacts.activities.TwelveKeyDialer','com.android.mms','com.android.email','com.android.thememanager'" />
-	<Array y="1150-!#lunar_calendar_enable*60-!#battery_enable*60" count="4" indexName="_i" visibility="#notification_enable">
+	<Array y="600-!#lunar_calendar_enable*60-!#battery_enable*60" count="4" indexName="_i" visibility="#notification_enable">
 		<Image x="540+#_i*132-132/2*(4-1)" w="72" h="72" align="center" srcType="ApplicationIcon" srcExp="@noticeApp[#_i]" visibility="#preview_mode" />
 		<Image x="540+#_i*132-132/2*#noticeCount" w="72" h="72" align="center" srcType="ApplicationIcon" srcExp="@noticePkg[#_i]" visibility="#_i{=#noticeCount**!#preview_mode" />
 	</Array>

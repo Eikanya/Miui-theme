@@ -1,8 +1,8 @@
 ## MIUI第三方主题
 
 ## 说明
-Miui14第三方主题。需要root破解系统主题导入，请自行root，按照magisk和LSPosed框架，再安装Muiu主题破解。
-
+Miui14第三方主题，测试机型小米11。需要root破解系统主题导入，请自行root，按照magisk和LSPosed框架，再安装Muiu主题破解。
+欢迎大家提交代码完善主题。
 
 ### 文件构造说明
 1. boots 开机logo
