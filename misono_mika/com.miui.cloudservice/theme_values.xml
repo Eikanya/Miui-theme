@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<color name="text_color_sync_button_white_DayNight">#22FFFFFF</color>
+<color name="miuix_appcompat_sliding_button_bar_off_light">#</color>按钮关闭背景
+<color name="miuix_appcompat_sliding_button_bar_on_light">#B4A9ADFF</color>按钮打开背景
+<color name="sliding_button_bar_on_light" package="miui">#B4A9ADFF</color>
+
+<dimen name="micloud_banner_height">0dp</dimen>云备份去广告
+<color name="special_function_card_solid_color">#20ffffff</color>特色功能方框颜色
+<color name="btn_style_solid_normal_color_DayNight">#B4A9ADFF</color>立即同步按钮背景
+<color name="btn_abnormal_solid_color_DayNight">#B4A9ADFF</color>升级空间按钮背景
+
+<color name="storage_color_gallery_image">#994099F6</color>
+<color name="storage_color_recorder">#99FF5449</color>
+<color name="storage_color_duokan">#99FFB648</color>
+
+<color name="white">#00FFFFFF</color>
+<color name="material_grey_100">#00FFFFFF</color>
+<color name="storage_notify_bar_normal_bg">#22FFFFFF</color>容量提示背景色
+<color name="cloud_service_settings_bg">#22FFFFFF</color>
+<color name="contact_item_check_enable_text">#22FFFFFF</color>
+<color name="miuix_preference_connect_icon_connected_color">#22FFFFFF</color>
+<color name="miuix_preference_connect_icon_disconnected_color_dark">#22FFFFFF</color>
+<color name="miuix_preference_connect_title_connected_color">#22FFFFFF</color>
+<color name="miuix_preference_white">#22FFFFFF</color>
+<color name="miuix_sbl_white">#22FFFFFF</color>
+<color name="normal_background_color_DayNight">#22FFFFFF</color>
+<color name="primary_text_default_material_dark">#22FFFFFF</color>
+<color name="short_cut_text_color">#22FFFFFF</color>
+<color name="state_btn_text_color">#22FFFFFF</color>
+<color name="micloud_sync_state_background_grey_DayNight">#22FFFFFF</color>
+<color name="material_grey_100">#22FFFFFF</color>
+<color name="text_color_sync_button_white_DayNight">#22FFFFFF</color>
+<color name="state_title_text_color">#22FFFFFF</color>
+<color name="micloud_privacy_light">#22FFFFFF</color>
+<color name="micloud_storage_background">#22FFFFFF</color>
+<color name="micloud_storage_default">#22FFFFFF</color>
+<color name="miuix_compat_list_text_color_normal_dark">#22FFFFFF</color>
+<color name="miuix_compat_list_text_color_pressed_dark">#22FFFFFF</color>
+<color name="miuix_preference_bright_foreground_dark">#22FFFFFF</color>
+<color name="miuix_preference_connect_title_disconnected_color_dark">#22FFFFFF</color>
+<color name="miuix_preference_list_text_color_normal_dark">#22FFFFFF</color>
+<color name="miuix_preference_list_text_color_pressed_dark">#22FFFFFF</color>
+<color name="miuix_preference_primary_text_color_dark">#22FFFFFF</color>
+<color name="miuix_preference_primary_text_color_disable_dark">#22FFFFFF</color>
+<color name="state_msg_text_color">#22FFFFFF</color>
+<color name="tooltip_background_light">#22FFFFFF</color>
+
+
+
+
+
+
+
+
+
+
+<color name="abc_decor_view_status_guard_light">#00FFFFFF</color>
+<color name="contact_item_check_enable_text">#00FFFFFF</color>
+<color name="keybag_positive_btn_text_color">#00FFFFFF</color>
+<color name="miuix_appcompat_dialog_bg_color_light">#00FFFFFF</color>
+<color name="miuix_appcompat_seekbar_progress_color">#00FFFFFF</color>
+<color name="miuix_appcompat_white">#00FFFFFF</color>
+<color name="miuix_preference_connect_icon_connected_color">#00FFFFFF</color>
+<color name="miuix_preference_connect_title_connected_color">#00FFFFFF</color>
+<color name="miuix_sbl_white">#00FFFFFF</color>
+<color name="storage_bar_divide_color">#00FFFFFF</color>
+<color name="text_color_sync_button_white_DayNight">#00FFFFFF</color>
+
+
+
+
+
+
+
+
+
+<color name="miuix_appcompat_alphabet_indexer_bg_color_light">#77FFFFFF</color>
+<color name="storage_card_view_normal_bg">#77FFFFFF</color>
+<color name="miuix_appcompat_alphabet_indexer_overlay_bg_color_light">#77FFFFFF</color>
+</MIUI_Theme_Values>

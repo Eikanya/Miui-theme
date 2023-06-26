@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<color name="color_FAFAFA">#4456D4BC</color>具体风险提示框背景色
+<string name="passed_security_test">安全</string>通过小米安全检测
+<string name="check_virus_app">病毒⚠</string>检测到病毒
+<string name="no_check_risk">未查出</string>未检测到风险
+<string name="detect_risk">危险⚠</string>检测到风险
+<string name="checked_unknow_app">未知</string>检测到未知应用
+
+<color name="white_black">#00000000</color>安全守护界面背景色
+
+
+<color name="white_white">#ffffffff</color>部分文字色值
+
+<!--
+
+<color name="white_24">#99ffffff</color>
+<color name="primary_text_default_material_dark">#99fb7097</color>
+<color name="miuix_state_Image_color_dark">#99fb7097</color>
+<color name="miuix_sbl_white">#99fb7097</color>
+<color name="miuix_preference_connect_title_connected_color">#99fb7097</color>
+<color name="miuix_preference_connect_icon_disconnected_color_dark">#99fb7097</color>
+<color name="miuix_preference_connect_icon_connected_color">#99fb7097</color>
+<color name="miuix_appcompat_white">#99fb7097</color>
+
+
+
+<color name="miuix_appcompat_spinner_item_normal_bg_color_light">#99fb7097</color>
+<color name="miuix_appcompat_sliding_btn_slider_on_pressed_color_light">#99fb7097</color>
+<color name="miuix_appcompat_sliding_btn_slider_on_normal_color_light">#99fb7097</color>
+<color name="miuix_appcompat_sliding_btn_slider_off_pressed_color_light">#99fb7097</color>
+<color name="miuix_appcompat_sliding_btn_slider_off_normal_color_light">#99fb7097</color>
+<color name="miuix_appcompat_seekbar_progress_color">#99fb7097</color>
+<color name="miuix_appcompat_number_picker_highlight_region_bg_color">#99fb7097</color>
+<color name="miuix_appcompat_menu_list_text_color_normal_dark">#99fb7097</color>
+<color name="miuix_appcompat_filter_sort_tab_view_bg_color_light">#99fb7097</color>
+<color name="miuix_appcompat_filter_sort_tab_view_background_normal_light">#99fb7097</color>
+<color name="miuix_appcompat_dropdown_popup_list_item_bg_normal_light">#99fb7097</color>
+<color name="miuix_appcompat_dropdown_popup_backgroud_color_light">#99fb7097</color>
+<color name="miuix_appcompat_dialog_default_number_picker_highlight_region_bg_color_light">#99fb7097</color>
+<color name="miuix_appcompat_dialog_default_checkbox_btn_on_foreground_color_light">#99fb7097</color>
+<color name="miuix_appcompat_dialog_default_checkbox_btn_on_foreground_color_dark">#99fb7097</color>
+<color name="miuix_appcompat_dialog_default_button_text_color_guide_normal_light">#99fb7097</color>
+
+
+<color name="miuix_appcompat_dialog_default_button_text_color_guide_normal_dark">#99fb7097</color>
+<color name="miuix_appcompat_dialog_default_bg_color_light">#99fb7097</color>
+<color name="miuix_appcompat_checkbox_btn_stroke_color_light">#99fb7097</color>
+<color name="miuix_appcompat_checkbox_btn_stroke_color_dark">#99fb7097</color>
+<color name="miuix_appcompat_checkbox_btn_disable_background_color_dark">#99fb7097</color>
+<color name="miuix_appcompat_button_text_color_warning_normal_light">#99fb7097</color>
+<color name="miuix_appcompat_button_text_color_warning_normal_dark">#99fb7097</color>
+<color name="miuix_appcompat_button_text_color_guide_normal_light">#99fb7097</color>
+<color name="miuix_appcompat_button_text_color_guide_normal_dark">#99fb7097</color>
+<color name="miuix_appcompat_background_dark">#99fb7097</color>
+<color name="miuix_appcompat_arrow_popup_triangle_color_light">#99fb7097</color>
+<color name="miuix_appcompat_action_mode_title_default_button_text_color_pressed_light">#99fb7097</color>
+<color name="miuix_appcompat_action_mode_title_default_button_text_color_normal_light">#99fb7097</color>
+<color name="miuix_appcompat_action_mode_title_default_button_text_color_disable_light">#99fb7097</color>
+<color name="miuix_appcompat_action_bar_title_settings_text_color_light">#99fb7097</color>
+<color name="miuix_appcompat_action_bar_search_mask_color_light">#99fb7097</color>
+<color name="material_harmonized_color_on_error_container">#99fb7097</color>
+<color name="material_harmonized_color_on_error">#99fb7097</color>
+<color name="material_harmonized_color_error_container">#99fb7097</color>
+<color name="material_harmonized_color_error">#99fb7097</color>
+<color name="m3_ref_palette_white">#99fb7097</color>
+<color name="m3_ref_palette_tertiary100">#99fb7097</color>
+<color name="m3_ref_palette_secondary100">#99fb7097</color>
+<color name="m3_ref_palette_primary100">#99fb7097</color>
+<color name="m3_ref_palette_neutral_variant100">#99fb7097</color>
+<color name="m3_ref_palette_neutral100">#99fb7097</color>
+<color name="m3_ref_palette_error100">#99fb7097</color>
+<color name="design_default_color_surface">#99fb7097</color>
+<color name="design_default_color_on_primary">#99fb7097</color>
+<color name="design_default_color_on_error">#99fb7097</color>
+<color name="design_default_color_background">#99fb7097</color>
+<color name="design_dark_default_color_on_surface">#99fb7097</color>
+<color name="design_dark_default_color_on_background">#99fb7097</color>
+<color name="color_safe_mode_feedback_reason_bg">#99fb7097</color>
+<color name="color_FFFFFF">#99fb7097</color>
+<color name="cardview_light_background">#99fb7097</color>
+<color name="abc_decor_view_status_guard_light">#99fb7097</color>
+<color name="989">#99fb7097</color>
+<color name="989">#99fb7097</color>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+	<color name="miui_main_bg_gray">#fffb7097</color>
+	<color name="miui_main_bg_red">#fffb7097</color>
+	<color name="miui_main_bg_yellow">#fffe92ff</color>
+	<color name="miui_button_green">#ff41d07e</color>
+<color name="white" package="android">#00000000</color>
+<string name="unknown">喵喵也不知道来自何方哦～</string>
+<string name="installing">正在为您安装 请稍等片刻...</string>
+<string name="uninstalling">正在卸载 请稍候...</string>
+<string name="btn_text_scaning">正在扫描中 请稍候...</string>
+<dimen name="floating_ball_video_h">0dp</dimen>垃圾清理动画大小
+<dimen name="floating_ball_video_w">0dp</dimen>垃圾清理动画大小
+
+
+<!--开关背景-->
+<color name="miuix_appcompat_sliding_button_bar_on_light">#dd56D4BC</color>
+<color name="sliding_button_bar_on_light" package="miui">#dd56D4BC</color>
+
+
+
+<color name="arrow_right_black_3">#00fb7097</color>
+<color name="arrow_right_blue_2">#00fb7097</color>
+<color name="miuix_preference_connect_icon_connected_color">#00fb7097</color>
+<color name="miuix_preference_connect_icon_disconnected_color_dark">#00fb7097</color>
+
+<color name="miuix_preference_connect_title_connected_color">#00fb7097</color>
+<color name="miuix_preference_white">#00fb7097</color>
+<color name="miuix_sbl_white">#00fb7097</color>
+
+
+ <color name="miuix_appcompat_white">#00ff0000</color>
+
+
+
+
+ <color name="positive_button_bg">#65808080</color>
+ <color name="positive_button_text_color">#ffffffff</color>
+ <color name="positive_button_bg_pressed">#99000000</color>
+ 
+ 
+
+
+ <color name="white">#00ff0000</color>
+ </MIUI_Theme_Values>

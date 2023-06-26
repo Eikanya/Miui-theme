@@ -1,4 +1,11 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<?xml version="1.0" encoding="utf-8"?>
 <MIUI_Theme_Values>
-
+    <item type="drawable" name="card_content_bottom_mask">false</item>
+    <item type="drawable" name="ic_anniversary">false</item>
+    <item type="drawable" name="miuix_appcompat_settings_window_bg_light">false</item>
+    <!-- MIUIX -->
+	<!-- 大背景 -->
+	<drawable name="miuix_appcompat_window_bg_light.9.png" package="miui">window_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_settings_window_bg_light.9.png" package="miui">window_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_window_bg_secondary_light.9.png" package="miui">window_bg_light.9.png</drawable>
 </MIUI_Theme_Values>

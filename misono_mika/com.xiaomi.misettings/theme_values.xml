@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+
+<!--开关背景-->
+<color name="miuix_appcompat_sliding_button_bar_on_light">#dd8CFFFF</color>
+<color name="sliding_button_bar_on_light" package="miui">#dd8CFFFF</color>
+
+
+
+<color name="miuix_preference_white">#00ff0000</color>
+
+  
+<color name="homepage_primary_color">#00fffffff</color>主界面背景颜色
+<color name="action_bar_tab_title_highlight_text_color">#ff000000</color>顶部只要文字颜色
+<color name="action_bar_title_text_color">#80000000</color>顶部只要次字颜色
+<color name="audio_add_menu_color_n">#802BAAFF</color>便签右下角按钮颜色
+<color name="audio_add_menu_color_p"></color>
+<color name="theme_main_color">#90000000</color>编辑便签界面顶部图标颜色
+<color name="v8_theme_content_bg_color">#50ffffff</color>便签条背景颜色
+<color name="white">#00000000</color>
+<color name="drop_down_item_highlight_color">#ff000000</color>便签二级主要文字颜色
+<color name="drop_down_popup_window_background_color">#00ffffff</color>便签二级界面背景
+<color name="drop_down_popup_window_mask_color">#00000000</color>便签二级界面下层背景
+<color name="folder_drop_down_footer_bg_color">#20a2a2a2</color>便签二级界面按钮颜色
+<color name="folder_drop_down_footer_bg_color_p">#30a2a2a2</color>便签二级界面按钮按下颜色
+<color name="folder_drop_down_footer_title_color">#ff000000</color>便签二级界面按钮里文字颜色
+<color name="preference_category_text_color_light">#80000000</color>
+<color name="home_item_normal_bg_color">#aaf5f5f5</color>
+
+<color name="usage_new_home_app_normal_bar_color">#997B89FF</color>
+<color name="usage_new_home_today_bar_color">#9966CDFF</color>
+<color name="usage_new_home_progress_color">#9966CDFF</color>
+
+<color name="usage_stats_app_usage_bar_unlock">#9962E4ED</color>
+<color name="usage_new_home_unlock_normal_bar_color">#9962E4ED</color>
+
+<color name="usage_new_home_indicator_selected_color">#884B5CC4</color>滑块按钮颜色
+<color name="usage_stats_white">#00000000</color>
+<color name="color_mix_match_random_nomal">#77f0f0f0</color>
+<color name="miuix_appcompat_button_bg_color_normal_light">#88f0f0f0</color>
+<color name="miuix_appcompat_edit_text_bg_color_light">#88f0f0f0</color>
+<color name="miuix_appcompat_edit_text_dialog_bg_solid_light">#00000000</color>
+</MIUI_Theme_Values>

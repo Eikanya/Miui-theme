@@ -1,3 +1,54 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <MIUI_Theme_Values>
+   	    <!--开关背景-->
+<color name="miuix_appcompat_sliding_button_bar_on_light">#ddFFBABD</color>
+<color name="sliding_button_bar_on_light" package="miui">#ddFFBABD</color>
+<color name="miuix_appcompat_white">#00ffffff</color>设置小背景颜色    
+<color name="miuix_appcompat_button_bg_color_normal_light">#66F0F0F0</color>
+<color name="miuix_appcompat_dialog_default_button_bg_color_normal_light">#66F0F0F0</color>
+<color name="miuix_appcompat_dialog_default_edit_text_bg_solid_light">#66F0F0F0</color>
+<color name="miuix_appcompat_edit_text_bg_color_light">#66F0F0F0</color>
+<color name="widget_day_bg_h">#66F0F0F0</color>
+<color name="gray95">#66ffffff</color>
+<color name="white">#00ffffff</color>新建日程背景
+<color name="new_event_shadow">#55000000</color>新建日程按钮背景
+<color name="month_num_selected">#ffffffff</color>今日文字颜色
+<color name="today_view_color">#00ffffff</color>今日背景
+<color name="transparent" package="android">#00000000</color>设置中小背景颜色
+<color name="motion_container_bg_color">#00000000</color>主界面颜色
+<color name="widget_month_day_number_black">#ffffffff</color>小部件日期文字颜色
+<color name="widget_month_day_lunar_black">#ffffffff</color>小部件日期农历文字颜色
+<color name="widget_title_date">#ffffffff</color>
+<color name="widget_near_bg">#ffffffff</color>
+<color name="widget_month_view_day_num_selected">#ffffffff</color>
+<color name="widget_month_view_bg">#ffffffff</color>
+<color name="widget_day_bg_n">#ffffffff</color>
+<color name="widget_list_bg_color">#ffffffff</color>
+<color name="widget_day_of_month">#ffffffff</color>
+<color name="widget_action_bar_title_year_color">#ffffffff</color>
+<color name="widget_action_bar_title_month_color">#ffffffff</color>
+<color name="widget_day_header_text_dark">#ffffffff</color>
+<color name="widget_line_divider_dark">#ffffffff</color>
+<color name="widget_near_agenda_bg">#ffffffff</color>
+<color name="widget_near_today_day">#ffffffff</color>
+<color name="month_selected_circle_today_color">#99FFA2C5</color>当日背景颜色
+<color name="month_event_dot_default_color">#ffffff00</color>已订日程小点颜色
+<color name="black_90">#ff000000</color>
+<color name="black_10">#00000000</color>新建日程分割线颜色
+<color name="black_30">#ffcccccc</color>号数农历颜色
+<color name="miui_calendar_past_bg_color">#00000000</color>日程/日视图背景
+<color name="miuix_appcompat_integrated_spinner_text_color_normal_light">#ffcccccc</color>设置界面右侧文字颜色
+<color name="miuix_preference_right_text_color_normal_light">#ffcccccc</color>设置右侧全天提醒时间/版本号文字颜色
+<color name="home_card_more_bg">#56F5f5f5</color>
+<color name="month_circle_focus_color">#77E6E6E6</color>
+      <!-- 底部弹窗 -->
+<color name="miuix_appcompat_button_bg_primary_color_normal_light">#ffff9999</color>右侧背景颜色
+<color name="miuix_appcompat_button_bg_color_normal_light">#9933ff00</color>左侧小背景背景
+<color name="miuix_appcompat_dialog_bg_color_light">#ffcccccc</color>底部弹窗背景颜色
+<color name="miuix_appcompat_dialog_message_text_color_light">#ff000000</color>
+<color name="miuix_appcompat_list_secondary_text_color_normal_light">#ff000000</color>
+<color name="huangli_yi_text_color">#ffff0000</color>
+<color name="huangli_detail_border_bg_color">#55ffffff</color>
+<color name="date_calculate_huang_li_yi_color">#880000ff</color>
+
 </MIUI_Theme_Values>

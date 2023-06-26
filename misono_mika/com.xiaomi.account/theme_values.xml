@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<!--开关背景-->
+<color name="miuix_appcompat_sliding_button_bar_on_light">#ddFEC787</color>
+<color name="sliding_button_bar_on_light" package="miui">#ddFEC787</color>
+
+
+<color name="color_ffffffff_night_ff000000">#00ff0000</color>权限使用说明背景
+<color name="no_network_text_light">#ff545454</color>
+<color name="passport_dialog_title_text_color">#ff545454</color>
+<color name="device_info1_text_color">#ff545454</color>
+<color name="passport_text_color_gray">#ff545454</color>
+<color name="text_color_normal_alpha_black">#ff545454</color>
+<color name="passport_dialog_list_text_color_normal_light">#ff545454</color>
+<color name="passport_text_color_black">#ff545454</color>
+<color name="text_color_gray">#ff545454</color>
+<color name="passport_alphabet_indexer_activated_text_color">#ff03a678</color>
+<color name="passport_dialog_list_text_color_pressed_light">#ff03a678</color>
+<color name="passport_text_color_normal_alpha_black">#ff545454</color>
+<color name="passport_list_text_color_normal_light">#ff545454</color>
+<color name="text_color_black">#ff03a678</color>
+<color name="passport_list_text_color_pressed_light">#ff03a678</color>
+<color name="passport_preference_primary_text_color_pressed_light">#ff03a678</color>
+<color name="passport_preference_primary_text_color_light">#ff03a678</color>
+<integer name="window_translucent_status" package="miui">1</integer>
+<color name="passport_action_bar_title_text_color_light">#ff545454</color>
+<color name="account_settings_user_name_text_color">#ff03a678</color>
+<color name="account_settings_user_id_text_color">#8003a678</color>
+
+<color name="text_color_red">#fff05475</color>
+
+<color name="micloud_storage_color_normal">#ffff7895</color>
+<color name="micloud_storage_color_warn">#ffff7895</color>
+<color name="passport_divider_color">#ffffffff</color>
+<string name="app_name">Mi ID</string>
+<string name="account_user_details">少女</string>
+<string name="account_user_base_info">少女</string>
+
+
+
+
+
+
+
+<color name="miuix_appcompat_white">#00000000</color>
+<color name="miuix_appcompat_button_bg_color_normal_light">#99f0f0f0</color>
+
+
+
+
+
+
+<color name="water_card_bg">#66ffffff</color>
+<color name="card_divider">#00000000</color>
+<color name="divider">#00000000</color>
+<color name="card_item_background_normal">#00000000</color>
+<color name="card_item_background_pressed">#00000000</color>
+
+
+<color name="miuix_appcompat_alphabet_indexer_bg_color_light">#99ff0000</color>
+<color name="color_f7f7f7_night_21ffffff">#34ffffff</color>
+
+
+<!--菜单-->
+<color name="miuix_appcompat_alphabet_indexer_overlay_bg_color_light">#45000000</color>
+<color name="color_ffddeeff_night_ff268CEE">#99DDEEFF</color>
+
+
+
+
+<color name="miuix_appcompat_edit_text_bg_color_light">#99F0F0F0</color>
+<color name="miuix_appcompat_button_bg_color_normal_light">#99F0F0F0</color>
+<color name="miuix_appcompat_dialog_default_edit_text_bg_solid_light">#99F0F0F0</color>
+<color name="miuix_appcompat_dialog_default_button_bg_color_normal_light">#99F0F0F0</color>
+  </MIUI_Theme_Values>

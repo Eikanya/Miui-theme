@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<color name="Anti_theft_version_of_the_patch">#ff000000</color>
+<color name="button_text">#ff000000</color>
+<color name="show_screen_display_color">#ff000000</color>
+<color name="show_screen_history_color">#99000000</color>
+<color name="button_equal_text_color">#ff000000</color>
+<color name="calculator_background">#40e3e7e9</color>
+<color name="list_divider_background_color">#00000000</color>
+<color name="micloud_storage_divide_background_color">#00000000</color>
+<color name="sim_bg_color">#00000000</color>背景图
+</MIUI_Theme_Values>

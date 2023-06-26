@@ -2,4 +2,30 @@
 <MIUI_Theme_Values>
 <!--开关背景-->
 <string name="app_name">未花主题</string>
+<color name="miuix_appcompat_sliding_button_bar_on_light">#ddF19FB5</color>
+<color name="sliding_button_bar_on_light" package="miui">#ddF19FB5</color>
+<color name="miuix_appcompat_white">#00ff0000</color>设置界面部分文本背景
+<color name="me_account_status_bar_bg">#00ff0000</color>状态栏遮罩透明
+<color name="me_category_bg_color">#00000000</color>分类磁贴背景色
+<color name="resource_search_hint_list_background">#00000000</color>
+<color name="resource_secondary_tab_color_pressed">#00ffabd5</color>
+<color name="resource_secondary_tab_color_normal">#99000000</color>
+<color name="resource_list_grid_item_border">#00000000</color>
+<color name="theme_tab_actionbar_bg_color_theme">#00000000</color>
+<color name="theme_tab_actionbar_bg_color_wallpaper">#00ffffff</color>
+<color name="theme_tab_actionbar_bg_color_ring">#00ffffff</color>
+<color name="theme_tab_actionbar_bg_color_font">#00ffffff</color>
+<color name="Anti_theft_version_of_the_patch">#00ffabd5</color>
+<color name="cards_bg_color">#00000000</color>
+<color name="notification_action_button_color_n">#00fb7097</color>
+<color name="notification_action_button_color_p">#00fb7097</color>
+<color name="tab_text_color_focused">#00000000</color>
+<color name="tab_text_color_unfocused">#00000000</color>
+<integer name="window_translucent_status" package="miui">#00000001</integer>
+<!-- <dimen name="recommend_option_view_height">0.0dip</dimen> -->
+<color name="me_divider_color">#00000000</color>
+<color name="theme_choice_dialog_item_bg_color_n">#00000000</color>
+<color name="recommend_navigation_bg_color">#00000000</color>
+<color name="author_follow_list_item">#00000000</color>
+<color name="white" package="android">#99FFFFFF</color>
 </MIUI_Theme_Values>

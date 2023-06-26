@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MIUI_Theme_Filters>
+	<filter path="framework-miui">
+	    
+	    <package>com.android.browser</package>
+	    <package>com.android.calculator2</package>
+	    <package>com.android.calendar</package>
+	    <package>com.android.email</package>
+		<package>com.android.fileexplorer</package>
+		<package>com.android.thememanager</package>
+		<package>com.android.settings</package>
+		<package>com.android.systemui</package>
+		<package>com.miui.home</package>
+		<package>com.android.mms</package>
+		<package>com.android.contacts</package>
+		<package>com.android.providers.contacts</package>
+		<package>android</package>
+		<package>miui</package>
+		<package>com.miui.miservice</package>
+		<package>com.android.updater</package>
+		<package>com.android.packageinstaller</package>
+		<package>com.android.phone</package>
+		<package>com.android.incallui</package>
+		<package>com.miui.weather2</package>
+		<package>com.android.keyguard</package>
+		<package>com.android.stk</package>
+		<package>com.miui.yellowpage</package>
+		<package>com.miui.touchassistant</package>
+		<package>com.android.deskclock</package>
+		<package>com.android.providers.downloads.ui</package>
+		<package>com.miui.securitycenter</package>
+		<package>com.android.camera</package>
+		<package>com.miui.notification</package>
+		<package>com.miui.voiceassist</package>
+		<package>com.miui.screenrecorder</package>
+		<package>com.android.quicksearchbox</package>
+		<package>com.xiaomi.account</package>
+		<package>com.xiaomi.misettings</package>
+		<package>com.miui.packageinstaller</package>
+		<package>com.lbe.security.miui</package>
+		<package>com.google.android.packageinstaller</package>
+		<package>com.xiaomi.market</package>
+		<package>com.quark.browser</package>
+		<package>com.miui.audioeffect</package>
+		<package>com.miui.backup</package>
+		<package>com.miui.contentextension</package>
+		<package>com.miui.mipub</package>
+		<package>com.miui.notes</package>
+		<package>com.miui.personalassistant</package>
+		<package>com.miui.mipub</package>
+		<package>com.miui.notes</package>
+		<package>com.miui.video</package>
+		
+		<package>android</package>
+	<package>com.android.camera</package>
+	<package>com.android.calendar</package>
+	<package>com.android.providers.media</package>
+	<package>com.android.incallui</package>
+	<package>com.android.providers.userdictionary</package>
+	<package>com.android.providers.telephony</package>
+	<package>com.android.systemui</package>
+	<package>com.android.contacts</package>
+	<package>com.android.providers.contacts</package>
+	<package>com.android.mms</package>
+	<package>com.android.settings</package>
+	<package>com.android.thememanager</package>
+	<package>com.android.stk</package>
+	<package>com.android.providers.applications</package>
+	<package>com.android.phone</package>
+	<package>com.android.updater</package>
+	<package>com.android.soundrecorder</package>
+	<package>com.android.quicksearchbox</package>
+	<package>com.android.email</package>
+	<package>com.android.deskclock</package>
+	<package>com.android.providers.downloads.ui</package>
+	<package>com.android.providers.downloads</package>
+	<package>com.android.bluetooth</package>
+	<package>com.android.browser</package>
+	<package>com.android.server.telecom</package>
+	
+	<package>miui</package>
+	<package>com.miui.bugreport</package>
+	<package>com.miui.backup</package>
+	<package>com.miui.backup.restore.confirmation</package>
+	<package>com.miui.powerkeeper</package>
+	<package>com.miui.cloudservice</package>
+	<package>com.miui.notes</package>
+	<package>com.miui.weather2</package>
+	<package>com.miui.fm</package>
+	<package>com.miui.fmradio</package>
+	<package>com.miui.cleanmaster</package>
+	<package>com.miui.player</package>
+	<package>com.miui.home</package>
+	<package>com.miui.gallery</package>
+	<package>com.mfashiongallery.emag</package>
+	<package>com.miui.securitycenter</package>
+	<package>com.miui.securitycore</package>
+	<package>com.miui.calculator</package>
+	<package>com.miui.voip</package>
+	<package>com.miui.enbbs</package>
+	<package>com.miui.home</package>
+	<package>com.miui.antispam</package>
+	<package>com.miui.packageinstaller</package>
+	<package>com.miui.personalassistant</package>
+	<package>com.miui.home.launcher.assistant</package>
+	
+	<package>com.xiaomi.market</package>
+	<package>com.xiaomi.scanner</package>
+	<package>com.xiaomi.midrop</package>
+	<package>com.xiaomi.account</package>
+	<package>mega.privacy.android.app</package>
+	<package>com.imo.android.imoim</package>
+	<package>com.mediafire.android</package>
+	<package>software.solarwarez.xmiui</package>	
+	<package>com.google.android.gm</package>
+	<package>com.google.android.youtube</package>
+	<package>com.bbm</package>
+	<package>com.instagram.android</package>
+	<package>com.whatsapp</package>
+	<package>com.android.vending</package>
+	<package>pl.zdunex25.updater</package>
+	<package>com.kabouzeid.gramophone</package>
+	<package>com.google.android.inputmethod.latin</package>
+	<package>com.baidu.input_mi</package>
+	<package>eu.chainfire.supersu</package>
+
+
+
+
+	</filter>
+</MIUI_Theme_Filters>

@@ -1,4 +1,172 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <MIUI_Theme_Values>
+<color name="miuix_preference_white">#00000000</color>
 
+<color name="miuix_compat_integrated_spinner_text_color_light">#ff515A63</color>
+<color name="miuix_compat_list_text_color_normal_light">#ff9979c1</color>
+<color name="miuix_compat_list_text_color_pressed_light">#ff000000</color>
+<color name="miuix_preference_category_text_color_light">#ff5b5b5b</color>
+<color name="miuix_preference_primary_text_color_light">#ff9979c1</color>
+<color name="miuix_preference_list_primary_text_color_pressed_light">#ff000000</color>
+<color name="miuix_preference_primary_text_color_disable_light">#ffacb9c1</color>
+<color name="miuix_preference_secondary_text_color_light">#ff515A63</color>
+<color name="miuix_preference_list_secondary_text_color_normal_light">#ff515A63</color>
+<color name="miuix_preference_secondary_text_color_disable_light">#ffacb9c1</color>
+<color name="miuix_preference_list_secondary_text_color_pressed_light">#ff000000</color>
+
+<color name="miuix_preference_white">#00ffffff</color>
+<color name="settings_default_bg_color">#00ffffff</color>
+<color name="font_settings_bg_color">#00ffffff</color>
+<color name="dropdown_popup_list_item_bg_normal_light" package="miui">#00ffffff</color>
+<color name="text_select_item_bg_color_normal_light" package="miui">#00ffffff</color>
+<color name="list_card_background">#00ffffff</color>
+<color name="emergency_contact_item_bg">#00ffffff</color>
+<color name="miuix_appcompat_white">#00ffffff</color>
+<color name="miuix_appcompat_spinner_item_normal_bg_color_light">#00ffffff</color>
+<color name="miuix_appcompat_number_picker_highlight_region_bg_color">#00ffffff</color>
+  <color name="search_action_mode_cancel_text_color_normal" package="miui">#fffb4b4b</color>
+  <color name="miuix_appcompat_search_action_mode_cancel_text_color_normal" >#fffb4b4b</color>
+  <color name="miuix_appcompat_search_action_mode_cancel_text_color_pressed" >#fffb4b4b</color>
+  <color name="new_version_text_color" >#fffb4b4b</color>
+  <color name="preference_secondary_text_color_checked_light" package="miui">#fffb4b4b</color>
+  <color name="miuix_preference_secondary_text_color_checked_light" >#fffb4b4b</color>
+  <color name="miuix_preference_list_secondary_text_color_checked_light" >#fffb4b4b</color>
+  <color name="miuix_preference_highlight_normal_light" >#fffb4b4b</color>
+  <color name="miuix_preference_highlight_pressed_light" >#fffb4b4b</color>
+  <color name="miuix_preference_btn_radio_arrow_color" >#fffb4b4b</color>
+  <color name="font_settings_view_big_color" >#fffb4b4b</color>
+  <color name="font_size_seekbar_big_pointer_blue" >#fffb4b4b</color>
+  <color name="wifi_detail_modify_color" >#fffb4b4b</color>
+  <color name="wifi_add_network_title_color" >#fffb4b4b</color>
+  <color name="usb_dialog_selected_bg_color" >#fffb4b4b</color>
+  <color name="highlight_normal_light" package="miui">#fffb4b4b</color>
+  <color name="highlight_pressed_light" package="miui">#fffb4b4b</color>
+  <color name="miuix_compat_list_text_color_checked_light" >#fffb4b4b</color>
+  <color name="miuix_compat_list_secondary_text_color_checked_light" >#fffb4b4b</color>
+  <color name="list_text_color_checked_light" package="miui">#fffb4b4b</color>
+  <color name="dropdown_popup_list_text_color_checked_light" package="miui">#fffb4b4b</color>
+  <color name="number_picker_highlight_text_color" package="miui">#fffb4b4b</color>
+  <color name="number_picker_label_color" package="miui">#fffb4b4b</color>
+  <color name="need_update_text_color" >#fffb4b4b</color>
+  <color name="voice_access_radio_preference_bg_selected_color" >#fffb4b4b</color>
+  <color name="progressPrimaryColor" package="miui">#fffb4b4b</color>
+  <color name="progressDisableColor" package="miui">#fffb4b4b</color>
+  <color name="light_color_mode" >#fffb4b4b</color>
+  <color name="input_method_keyboard_bg_color" >#fffb4b4b</color>
+  <color name="input_method_keyboard_des_text_color_selected" >#fffb4b4b</color>
+  <color name="visual_check_borderlayout_bg_stroke_color" >#fffb4b4b</color>
+  <color name="visual_check_textview_checked_text_color" >#fffb4b4b</color>
+  <color name="recommend_item_link" >#fffb4b4b</color>
+  <color name="notch_radio_button_text_checked" >#fffb4b4b</color>
+  <color name="fold_feedback_link_color" >#fffb4b4b</color>
+  <color name="font_size_view_big_color" >#fffb4b4b</color>
+  <color name="text_edit_action_popup_text_pressed" package="miui">#fffb4b4b</color>
+  <color name="text_edit_action_popup_more_normal_light" package="miui">#fffb4b4b</color>
+  <color name="holo_blue_light" package="android">#fffb4b4b</color>
+  <color name="miuix_appcompat_highlight_normal_light" >#fffb4b4b</color>
+  <color name="miuix_appcompat_highlight_pressed_light" >#fffb4b4b</color>
+  <color name="dark_color_mode_outer" >#fffb4b4b</color>
+  <color name="miuix_appcompat_progress_primary_color_light" >#fffb4b4b</color>
+  <color name="miuix_appcompat_list_text_color_checked_light" >#fffb4b4b</color>
+  <color name="miuix_appcompat_number_picker_highlight_color" >#fffb4b4b</color>
+  <color name="miuix_appcompat_number_picker_label_color" >#fffb4b4b</color>
+  <color name="bubble_right_bg_color" >#fffb4b4b</color>
+  <color name="miuix_appcompat_filter_sort_tab_view_bg_color_light" >#fffb4b4b</color>
+  <color name="button_bg_primary_color_normal_light" package="miui">#fffb4b4b</color>
+  <color name="button_bg_primary_color_pressed_light" package="miui">#fffb4b4b</color>
+  <color name="miuix_appcompat_button_bg_primary_color_normal_light" >#fffb4b4b</color>
+  <color name="miuix_appcompat_button_bg_primary_color_pressed_light" >#fffb4b4b</color>
+  <color name="edit_text_border_color" package="miui">#fffb4b4b</color>
+  <color name="miuix_appcompat_edit_text_border_color" >#fffb4b4b</color>
+  <color name="card_view_checked_color" >#fffb4b4b</color>
+  <color name="choose_unlock_item_bg_selected" >#fffb4b4b</color>
+  <color name="choose_unlock_item_bg_selected_pressed" >#fffb4b4b</color>
+  <color name="sliding_button_bar_on_light" package="miui">#fffb4b4b</color>
+  <color name="miuix_appcompat_sliding_button_bar_on_light" >#fffb4b4b</color>
+  <color name="svg_icon_color_blue_selected_light" package="miui">#fffb4b4b</color>
+  <color name="action_mode_button_text_color_selected_light" package="miui">#fffb4b4b</color>
+  <color name="action_button_text_color_selected_light" package="miui">#fffb4b4b</color>
+  <color name="miuix_appcompat_svg_icon_color_blue_selected_light" >#fffb4b4b</color>
+  <color name="miuix_appcompat_action_mode_button_text_color_selected_light" >#fffb4b4b</color>
+  <color name="miuix_appcompat_action_button_text_color_selected_light" >#fffb4b4b</color>
+  <color name="checkbox_btn_on_background_color_light" package="miui">#fffb4b4b</color>
+  <color name="miuix_appcompat_checkbox_btn_on_background_color_light" >#fffb4b4b</color>
+  <color name="miuix_preference_highlight_disabled_light" >#ffff9999</color>
+  <color name="highlight_disabled_light" package="miui">#ffff9999</color>
+  <color name="recommend_item_link_pressed" >#ffff9999</color>
+  <color name="miuix_appcompat_highlight_disabled_light" >#ffff9999</color>
+  <color name="miuix_appcompat_progress_disable_color_light" >#ffff9999</color>
+  <color name="list_item_bg_color_checked_light" package="miui">#64ff9999</color>
+  <color name="dropdown_popup_list_item_bg_checked_light" package="miui">#64ff9999</color>
+  <color name="miuix_appcompat_spinner_item_checked_bg_color_light" >#64ff9999</color>
+  <color name="miuix_appcompat_list_item_bg_dialog_color_checked_light" >#64ff9999</color>
+  <color name="new_version_button_color" >#64ff9999</color>
+  <color name="progress_paint_color" >#64ff9999</color>
+  <color name="miuix_preference_checkable_item_fill_color_checked_light" >#64ff9999</color>
+  <color name="button_text_blue">#fffb4b4b</color>
+    <color name="miuix_appcompat_accent_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_accent_color_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_action_button_text_color_selected_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_action_button_text_color_selected_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_alphabet_indexer_highlight_text_color">#fffb4b4b</color>
+    <color name="miuix_appcompat_alphabet_indexer_highlight_text_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_alphabet_indexer_overlay_text_color">#fffb4b4b</color>
+    <color name="miuix_appcompat_alphabet_indexer_overlay_text_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_button_bg_primary_color_normal_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_button_bg_primary_color_normal_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_button_bg_color_warn_normal_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_button_bg_color_warn_normal_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_button_bg_color_warn_pressed_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_button_bg_color_warn_pressed_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_button_bg_primary_color_normal_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_button_bg_primary_color_normal_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_checkbox_btn_on_background_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_checkbox_btn_on_background_color_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_progress_percent_color">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_singleChoice_checkbox_btn_on_background_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_singleChoice_checkbox_btn_on_background_color_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_singleChoice_checked_text_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_dialog_default_singleChoice_checked_text_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_dropdown_popup_list_text_color_checked_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_dropdown_popup_list_text_color_checked_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_edit_text_border_color">#fffb4b4b</color>
+    <color name="miuix_appcompat_fab_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_fab_color_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_filter_sort_tab_view_text_selected">#fffb4b4b</color>
+    <color name="miuix_appcompat_handle_and_cursor_color">#fb4b4b</color>
+    <color name="miuix_appcompat_highlight_disabled_light">#80fb4b4b</color>
+    <color name="miuix_appcompat_highlight_normal_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_highlight_normal_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_ic_visible_fillColor_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_ic_visible_fillColor_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_link_text_dark">#fb4b4b</color>
+    <color name="miuix_appcompat_link_text_light">#fb4b4b</color>
+    <color name="miuix_appcompat_number_picker_highlight_color">#fffb4b4b</color>
+    <color name="miuix_appcompat_number_picker_highlight_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_number_picker_label_color">#fffb4b4b</color>
+    <color name="miuix_appcompat_number_picker_label_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_list_text_color_checked_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_list_text_color_checked_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_list_secondary_text_color_checked_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_list_secondary_text_color_checked_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_message_view_text_color_light">#fffb4b4b</color>
+    <color name="miuix_appcompat_progress_primary_color_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_progress_primary_color_light">#fb4b4b</color>
+    <color name="miuix_appcompat_progressbar_color_dark">#fb4b4b</color>
+    <color name="miuix_appcompat_progressbar_color_light">#fb4b4b</color>
+    <color name="miuix_appcompat_svg_icon_color_blue_disable_dark">#4dfb4b4b</color>
+    <color name="miuix_appcompat_svg_icon_color_blue_disable_light">#4dfb4b4b</color>
+    <color name="miuix_appcompat_svg_icon_color_blue_normal_dark">#e6fb4b4b</color>
+    <color name="miuix_appcompat_svg_icon_color_blue_normal_light">#e60084ff</color>
+    <color name="miuix_appcompat_svg_icon_color_blue_selected_dark">#fffb4b4b</color>
+    <color name="miuix_appcompat_svg_icon_color_blue_selected_light">#fffb4b4b</color>
+    <color name="miuix_picker_datetime_text_color">#fb4b4b</color>
+    <color name="miuix_preference_btn_radio_arrow_color">#fffb4b4b</color>
+    <color name="miuix_preference_connect_bg_connected_color_dark">#fffb4b4b</color>
+    <color name="miuix_preference_connect_bg_connected_color_light">#fb4b4b</color>
+    <color name="miuix_preference_secondary_text_color_checked_dark">#fffb4b4b</color>
+    <color name="miuix_preference_secondary_text_color_checked_light">#fffb4b4b</color>
+    <color name="miuix_sbl_locked_blue">#fb4b4b</color>
+    <color name="miuix_sbl_locked_text_blue">#fb4b4b</color>
+    <color name="text_blue">#fffb4b4b</color>
 </MIUI_Theme_Values>

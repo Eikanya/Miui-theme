@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/splash_cover_bg_color" android:drawable="@color/white" />
+    <item android:gravity="fill_horizontal|center|top" android:id="@id/splash_cover_bg" android:height="@dimen/market_splash_cover_bg_height" android:width="@dimen/market_splash_cover_bg_width" android:drawable="@drawable/market_splash_bg" />
+    <item android:gravity="fill_horizontal|center|top" android:id="@id/splash_gradient_bg" android:height="@dimen/market_splash_cover_bg_height" android:width="@dimen/market_splash_cover_bg_width">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#f0ffffff" android:endColor="#ffffffff" android:angle="270.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:gravity="center|top" android:id="@id/splash_cover_logo" android:height="@dimen/market_splash_cover_logo_height" android:width="@dimen/market_splash_cover_logo_width" android:drawable="@drawable/market_splash_logo" android:top="@dimen/market_splash_cover_logo_top_margin" />
+</layer-list>

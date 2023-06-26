@@ -31,7 +31,7 @@
 
 	<!-- 通知图标之间的间隙 -->
 	<Var name="noticeApp" type="string[]" const="true" expression="" values="'com.android.contacts,com.android.contacts.activities.TwelveKeyDialer','com.android.mms','com.android.email','com.android.thememanager'" />
-	<Array y="600-!#lunar_calendar_enable*60-!#battery_enable*60" count="4" indexName="_i" visibility="#notification_enable">
+	<Array y="700-!#lunar_calendar_enable*60-!#battery_enable*60" count="4" indexName="_i" visibility="#notification_enable">
 		<Image x="540+#_i*132-132/2*(4-1)" w="72" h="72" align="center" srcType="ApplicationIcon" srcExp="@noticeApp[#_i]" visibility="#preview_mode" />
 		<Image x="540+#_i*132-132/2*#noticeCount" w="72" h="72" align="center" srcType="ApplicationIcon" srcExp="@noticePkg[#_i]" visibility="#_i{=#noticeCount**!#preview_mode" />
 	</Array>

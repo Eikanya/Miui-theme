@@ -1,3 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MIUI_Theme_Values template="LightTemplate">
+<MIUI_Theme_Values>
+  <integer name="window_translucent_status" package="miui">1</integer>	
+  <color name="miuix_preference_white">#00ffffff</color>
+  
+  <color name="action_bar_title_text_color_light" package="miui">#ffa9adff</color>
+  <color name="edit_text_search_hint_color_light" package="miui">#4c000000</color>
+  <color name="bootloader_status_default_color">#FF4B738A</color>
+  <color name="bluetooth_dialog_text_color">#66000000</color>
+  <color name="sliding_button_bar_off_light" package="miui">#0c000000</color>
+  <color name="font_size_view_big_center_color">#ffffffff</color>
+  <color name="dim_foreground_light" package="miui">#66000000</color>
+  <color name="text_edit_action_popup_summary_normal_light" package="miui">#66000000</color>
+  <color name="text_edit_action_popup_text_normal" package="miui">#FF4B738A</color>
+  <color name="preference_primary_text_color_pressed_light" package="miui">#FF4B738A</color>
+  <color name="ringtone_item_region_color">#19000000</color>
+  <color name="font_size_view_background">#19000000</color>
+  <color name="list_secondary_text_color_pressed_light" package="miui">#66000000</color>
+  <color name="action_button_text_color_disable_light" package="miui">#4c000000</color>
+  <color name="seekbar_progress_color" package="miui">#ffffffff</color>
+  <color name="action_button_text_color_pressed_light" package="miui">#99000000</color>
+  <color name="svg_icon_color_pressed_light">#99000000</color>
+  <color name="text_select_item_bg_color_normal_light" package="miui">#00000000</color>
+  <color name="text_edit_action_popup_text_pressed" package="miui">#ff0097ff</color>
+  <color name="preference_primary_text_color_disable_light" package="miui">#661d6da2</color>
+  <color name="hint_foreground_light" package="miui">#66000000</color>
+  <color name="fold_description_text_color">#66000000</color>
+  <color name="svg_icon_color_disable_light" package="miui">#4c000000</color>
+  <color name="svg_icon_color_normal_light">#e6000000</color>
+  <color name="action_mode_button_text_color_pressed_light" package="miui">#99000000</color>
+  <color name="button_text_color_light" package="miui">#FF4B738A</color>
+  <color name="basic_info_item_summary_color">#66000000</color>
+  <color name="list_secondary_text_color_normal_light">#66000000</color>
+  <color name="paper_mode_disable_tv_color">#FF4B738A</color>
+  <color name="dialog_list_text_color_disabled_light" package="miui">#661d6da2</color>
+  <color name="numberpicker_hint_text" package="miui">#FF4B738A</color>
+  <color name="divider_color_light" package="miui">#0d000000</color>
+  <color name="ringtone_item_value_color">#66000000</color>
+  <color name="select_radio_button_text_color">#FF4B738A</color>
+  <color name="screen_effect_btn_unchecked">#FF4B738A</color>
+  <color name="dialog_title_text_color" package="miui">#FF4B738A</color>
+  <color name="svg_icon_color_blue_disable_light" package="miui">#4c000000</color>
+  <color name="action_button_text_color_selected_light" package="miui">#ffa9adff</color>
+  <color name="action_button_text_color_normal_light" package="miui">#e6000000</color>
+  <color name="bright_foreground_light" package="miui">#FF4B738A</color>
+  <color name="list_secondary_text_color_disable_light" package="miui">#661d6da2</color>
+  <color name="dialog_list_text_color_pressed_light" package="miui">#FF4B738A</color>
+  <color name="recommend_title_color">#66000000</color>
+  <color name="svg_icon_color_normal_light" package="miui">#e6000000</color>
+  <color name="action_bar_subtitle_text_light" package="miui">#99000000</color>
+  <bool name="check_widget_anim_enable" package="miui">false</bool>
+  <color name="button_text_color_dialog_light" package="miui">#FF4B738A</color>
+  <color name="dialog_message_text_color_light" package="miui">#66000000</color>
+  <color name="svg_icon_color_pressed_light" package="miui">#99000000</color>
+  <color name="dialer_menu_item_bg_color">#0c000000</color>
+  <color name="dialog_bg_color_light" package="miui">#ffffffff</color>
+  <dimen name="preference_account_padding_left">28.5dp</dimen>
+  <dimen name="preference_account_padding_right">20dp</dimen>
+  <color name="sliding_button_bar_on_light" package="miui">#ffa9adff</color>
+  <color name="basic_info_item_title_color">#FF4B738A</color>
+  <color name="transparent_60_balck">#66000000</color>
+  <color name="edit_text_color_light" package="miui">#FF4B738A</color>
+  <color name="text_edit_action_popup_info_normal_light" package="miui">#66000000</color>
+  <color name="preference_secondary_text_color_disable_light" package="miui">#661d6da2</color>
+  <color name="raise_bottom_height_of_keyboard_text_color">#FF4B738A</color>
+  <color name="svg_icon_color_red_pressed_light" package="miui">#99000000</color>
+  <color name="list_secondary_text_color_pressed_light">#66000000</color>
+  <color name="white">#fafafa</color>
+  <color name="slider_color_header">#66000000</color>
+  <color name="progressBackground_light" package="miui">#19000000</color>
+  <color name="text_edit_action_popup_title_normal_light" package="miui">#FF4B738A</color>
+  <color name="default_text_color">#FF4B738A</color>
+  <color name="dialer_menu_item_bg_press_color">#19000000</color>
+  <color name="svg_icon_color_red_normal_light" package="miui">#ffff2a48</color>
+  <color name="svg_icon_color_red_disable_light" package="miui">#4c000000</color>
+  <color name="search_action_mode_cancel_text_color_pressed" package="miui">#99000000</color>
+  <color name="list_item_bg_color_pressed_light" package="miui">#0c000000</color>
+  <color name="screen_effect_btn_stroke_unchecked">#FF4B738A</color>
+  <color name="sliding_btn_slider_on_normal_color_light" package="miui">#ffffffff</color>
+  <color name="color_radio_button_text">#ff1d6da2</color>
+  <color name="action_mode_title_text_color_light" package="miui">#ffa9adff</color>
+  <color name="action_mode_button_text_color_normal_light" package="miui">#e6000000</color>
+  <color name="blank_page_text_color_light" package="miui">#66000000</color>
+  <color name="search_action_mode_cancel_text_color_normal" package="miui">#ffa9adff</color>
+  <color name="preference_primary_text_color_light" package="miui">#FF4B738A</color>
+  <color name="button_text_color_dialog_disabled_light" package="miui">#661d6da2</color>
+  <color name="dialog_list_text_color_normal_light" package="miui">#FF4B738A</color>
+  <color name="action_mode_button_text_color_disable_light" package="miui">#4c000000</color>
+  <color name="notch_radio_button_text">#FF4B738A</color>
+  <color name="recommend_region_color">#19000000</color>
+  <color name="preference_category_text_color_light" package="miui">#66000000</color>
+  <color name="ringtone_item_title_color">#FF4B738A</color>
+  <color name="dialog_message_text_color_light">#66000000</color>
+  <color name="edit_text_search_color_light" package="miui">#e6000000</color>
+  <color name="preference_secondary_text_color_light" package="miui">#66000000</color>
+  <color name="list_secondary_text_color_disable_light">#661d6da2</color>
+  <color name="list_secondary_text_color_normal_light" package="miui">#66000000</color>
+  <color name="dialog_title_text_color">#FF4B738A</color>
+  <color name="usage_stats_black60">#66000000</color>
+  <color name="sliding_btn_slider_on_pressed_color_light" package="miui">#ffffffff</color>
+  <color name="button_text_color_guide_disabled_light" package="miui">#661d6da2</color>
+  <color name="sliding_btn_slider_off_pressed_color_light" package="miui">#ffffffff</color>
+  <color name="text_select_item_bg_color_pressed_light" package="miui">#19000000</color>
+  <color name="preference_secondary_text_color_pressed_light" package="miui">#66000000</color>
+  <color name="svg_icon_color_disable_light">#4c000000</color>
+  <color name="action_mode_button_text_color_selected_light" package="miui">#ffa9adff</color>
+  <color name="basic_info_item_divider_color">#00d9d9d9</color>
+  <color name="volume_seekbar_title_color">#ff1d6da2</color>
+  <color name="transparent_80_balck">#FF4B738A</color>
+  <color name="sliding_btn_slider_off_normal_color_light" package="miui">#ffffffff</color>
+  <color name="prompt_text_color">#66000000</color>
+  <color name="svg_icon_color_blue_selected_light" package="miui">#ffa9adff</color>
+  <color name="raise_bottom_height_of_keyboard_sub_text_color">#66000000</color>
+  
+  <color name="divider_line_light">#00000000</color>
+<color name="divider_line_dark">#00000000</color>
+<color name="preference_first_last_divider_line_light">#00000000</color>
+   <color name="bootloader_status_default_color">#ffffffff</color>
+ <color name="default_text_color">#ffffffff</color>
+<color name="basic_info_item_title_color">#ffffffff</color>
+<color name="seekbar_progress_color" package="miui">#ffffffff</color>
+  <color name="progressBackground_light" package="miui">#19ffffff</color>
+ <string-array name="detailed_am_pms">
+          <item></item>睡觉
+          <item></item>半夜
+          <item></item>早上
+          <item></item>午安
+          <item></item>下午
+          <item></item>落日
+          <item></item>午夜
+          </string-array>时间段
+<string-array name="week_days_short">
+<item>周日</item>日
+<item>周一</item>一
+<item>周二</item>二
+<item>周三</item>三
+<item>周四</item>四
+<item>周五</item>五
+<item>周六</item>六
+</string-array>周次
+<string name="fmt_time_12hour_minute_pm">hh:mm</string>
+<string name="fmt_time_24hour_minute">HH:mm</string>
+ <string name="memory_clear_result">已消灭%1$s，当前剩余%2$s</string>清除最近任务时弹窗文字
+<color name="miuix_appcompat_sliding_button_bar_off_light">#</color>按钮关闭背景
+<color name="miuix_appcompat_sliding_button_bar_on_light">#B4A9ADFF</color>按钮打开背景
 </MIUI_Theme_Values>

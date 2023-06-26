@@ -8,7 +8,7 @@
         <Animation/>
         <Emit/>
     </Plugin>
-    <Plugin name="blok_oxmwcwvq" src="numClock" visibility="1" blokName="横向数字时钟2" blokId="oxmwcwvq" blokTag="_lockscreen_clock" blokIsLock="false" x="550" y="450" w="504" h="420" rotation="0" alpha="255" timeFont="mitype-normal" color="#ffe665bd" align="center">
+    <Plugin name="blok_oxmwcwvq" src="numClock" visibility="1" blokName="横向数字时钟2" blokId="oxmwcwvq" blokTag="_lockscreen_clock" blokIsLock="false" x="550" y="450" w="540" h="450" rotation="0" alpha="255" timeFont="mitype-normal" color="#fffb6ff7" align="center">
         <Animation/>
         <Emit/>
     </Plugin>
@@ -28,7 +28,7 @@
             </Plugin>
         </Slot>
     </Plugin>
-    <Plugin name="blok_ycodbcql" src="text" visibility="1" blokName="文字1" blokId="ycodbcql" blokTag="_shape_shape" blokIsLock="false" x="250" y="950" w="700" h="233" rotation="0" color="#f33939" size="50" text="聖園ミカが大好きです！" align="left" alignV="top" pivotX="150" pivotY="0" scaleX="1" scaleY="1" multiLine="false">
+    <Plugin name="blok_ycodbcql" src="text" visibility="1" blokName="文字1" blokId="ycodbcql" blokTag="_shape_shape" blokIsLock="false" x="250" y="950" w="700" h="233" rotation="0" color="#f58f8f" size="50" text="聖園ミカが大好きです！" align="left" alignV="top" pivotX="150" pivotY="0" scaleX="1" scaleY="1" multiLine="false">
         <Animation/>
         <Emit/>
     </Plugin>
@@ -36,7 +36,7 @@
         <Animation/>
         <Emit/>
     </Plugin>
-    <Plugin name="blok_qryqjsx9" src="musicMayEleven" visibility="1" blokName="轻动音乐2" blokId="qryqjsx9" blokTag="_lockscreen_music" blokIsLock="false" x="60" y="1364" w="950" h="420" rotation="0" musicbg2="musicMayEleven_src/qryqjsx9_music_bg2.9.png" music_bg="musicMayEleven_src/qryqjsx9_music_bg.9.png" default_bg="musicMayEleven_src/qryqjsx9_normal_album_cover.png" musicAlpha="235" bmusicBg2Alpha="128" bmusicBgAlpha="225" buttonAlpha="128" progressColor="#fff22250" visibilityText="可见" musicAutoShowText="手动双击显示">
+    <Plugin name="blok_qryqjsx9" src="musicMayEleven" visibility="1" blokName="轻动音乐2" blokId="qryqjsx9" blokTag="_lockscreen_music" blokIsLock="false" x="68" y="1472" w="950" h="420" rotation="0" musicbg2="musicMayEleven_src/qryqjsx9_music_bg2.9.png" music_bg="musicMayEleven_src/qryqjsx9_music_bg.9.png" default_bg="musicMayEleven_src/qryqjsx9_normal_album_cover.png" musicAlpha="235" bmusicBg2Alpha="128" bmusicBgAlpha="225" buttonAlpha="128" progressColor="#fff797ac" visibilityText="可见" musicAutoShowText="手动双击显示">
         <Animation/>
         <Emit/>
     </Plugin>

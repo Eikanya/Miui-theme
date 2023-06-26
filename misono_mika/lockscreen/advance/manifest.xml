@@ -3,36 +3,36 @@
     <ExternalCommands>
         <Trigger action="resume">
             <!-- 从负一屏或相机界面后界面退出后图标界面复位 -->
-            <VariableCommand name="move_x1_h9thwf" expression="0"/>
-            <VariableCommand name="move_x2_h9thwf" expression="0"/>
-            <AnimationCommand target="move_go_h9thwf" command="play"/>
-            <AnimationCommand target="unlock_back_h9thwf" command="play(0,0)"/>
+            <VariableCommand name="move_x1_hfew9b" expression="0"/>
+            <VariableCommand name="move_x2_hfew9b" expression="0"/>
+            <AnimationCommand target="move_go_hfew9b" command="play"/>
+            <AnimationCommand target="unlock_back_hfew9b" command="play(0,0)"/>
         </Trigger>
         <Trigger action="pause">
-            <AnimationCommand target="unlock_back_h9thwf" command="play(0,0)"/>
+            <AnimationCommand target="unlock_back_hfew9b" command="play(0,0)"/>
         </Trigger>
         <Trigger action="resume">
-            <AnimationCommand target="panel_framerate_controller_ngs4mj" command="play"/>
-            <AnimationCommand target="MusicAni_ngs4mj" command="play(0,0)" condition="#music_control_ngs4mj.music_state==0"/>
-            <MultiCommand condition="#music_control_ngs4mj.music_state==1">
-                <AnimationCommand target="MusicAni_ngs4mj" command="play(0,700)"/>
-                <AnimationCommand target="albumCoverAni_ngs4mj" command="play(0,600)"/>
-                <VariableCommand name="resumeMusicButtonVi_ngs4mj" expression="1"/>
-                <VariableCommand name="resumeMusicButtonVi_ngs4mj" expression="0" delay="600"/>
+            <AnimationCommand target="panel_framerate_controller_0qgrgr" command="play"/>
+            <AnimationCommand target="MusicAni_0qgrgr" command="play(0,0)" condition="#music_control_0qgrgr.music_state==0"/>
+            <MultiCommand condition="#music_control_0qgrgr.music_state==1">
+                <AnimationCommand target="MusicAni_0qgrgr" command="play(0,700)"/>
+                <AnimationCommand target="albumCoverAni_0qgrgr" command="play(0,600)"/>
+                <VariableCommand name="resumeMusicButtonVi_0qgrgr" expression="1"/>
+                <VariableCommand name="resumeMusicButtonVi_0qgrgr" expression="0" delay="600"/>
             </MultiCommand>
-            <VariableCommand name="autoShowVi_ngs4mj" expression="1" condition="#musicAutoShow_ngs4mj==1"/>
-            <VariableCommand name="autoShowVi_ngs4mj" expression="0" delay="700" condition="#musicAutoShow_ngs4mj!=1"/>
+            <VariableCommand name="autoShowVi_0qgrgr" expression="1" condition="#musicAutoShow_0qgrgr==1"/>
+            <VariableCommand name="autoShowVi_0qgrgr" expression="0" delay="700" condition="#musicAutoShow_0qgrgr!=1"/>
         </Trigger>
         <Trigger action="pause">
-            <AnimationCommand target="MusicAni_ngs4mj" command="play(0,0)"/>
-            <AnimationCommand target="albumCoverAni_ngs4mj" command="play(0,0)"/>
-            <VariableCommand name="autoShowVi_ngs4mj" expression="1" condition="#musicAutoShow_ngs4mj==1"/>
-            <VariableCommand name="autoShowVi_ngs4mj" expression="0" condition="#musicAutoShow_ngs4mj!=1"/>
+            <AnimationCommand target="MusicAni_0qgrgr" command="play(0,0)"/>
+            <AnimationCommand target="albumCoverAni_0qgrgr" command="play(0,0)"/>
+            <VariableCommand name="autoShowVi_0qgrgr" expression="1" condition="#musicAutoShow_0qgrgr==1"/>
+            <VariableCommand name="autoShowVi_0qgrgr" expression="0" condition="#musicAutoShow_0qgrgr!=1"/>
         </Trigger>
     </ExternalCommands>
     <VariableBinders>
-        <ContentProviderBinder name="data_yp4fzo" uri="content://keyguard.notification/notifications" columns="icon,title,content,time,info,subtext,key" countName="hasnotifications">
-            <List name="notification_list_yp4fzo"/>
+        <ContentProviderBinder name="data_ri7mss" uri="content://keyguard.notification/notifications" columns="icon,title,content,time,info,subtext,key" countName="hasnotifications">
+            <List name="notification_list_ri7mss"/>
         </ContentProviderBinder>
     </VariableBinders>
     <Group name="blok_4krk4d3j" visibility="1">
@@ -44,20 +44,20 @@
         <Text x="150" y="300" color="#f877dc" size="55" width="800" multiLine="true" text="先生、おかえり！待ってたよ！" align="left" alignV="top" rotation="0" pivotX="0" pivotY="0" scaleX="1" scaleY="1"/>
     </Group>
     <Group name="blok_oxmwcwvq" visibility="1">
-        <Var name="w_hzmoit" type="number" expression="520"/>
-        <Var name="h_hzmoit" type="number" expression="357"/>
-        <Var name="scaleX_hzmoit" type="number" expression="max(0,504/#w_hzmoit)" const="true"/>
-        <Var name="scaleY_hzmoit" type="number" expression="max(0,420/#h_hzmoit)" const="true"/>
-        <Group x="550" y="450" alpha="255" rotation="0" scaleX="#scaleX_hzmoit" scaleY="#scaleY_hzmoit">
+        <Var name="w_hziy56" type="number" expression="520"/>
+        <Var name="h_hziy56" type="number" expression="357"/>
+        <Var name="scaleX_hziy56" type="number" expression="max(0,540/#w_hziy56)" const="true"/>
+        <Var name="scaleY_hziy56" type="number" expression="max(0,450/#h_hziy56)" const="true"/>
+        <Group x="550" y="450" alpha="255" rotation="0" scaleX="#scaleX_hziy56" scaleY="#scaleY_hziy56">
             <!-- maml-render 字体跟手机有差别 -->
-            <Button w="504-50*#scaleX_hzmoit" h="420" align="center"/>
-            <DateTime name="time1_hzmoit" y="0" align="center" size="210" color="#ffe665bd" formatExp="ifelse(#time_format,'HH:mm','hh:mm')" fontFamily="mitype-normal"/>
-            <DateTime y="240" align="center" size="40" color="#ffe665bd" formatExp="ifelse(#time_format,'M月d日 EEEE','M月d日 Eaa')" bold="true"/>
-            <DateTime y="305" align="center" size="40" color="#ffe665bd" format="YY年,N月e" bold="true"/>
+            <Button w="540-50*#scaleX_hziy56" h="450" align="center"/>
+            <DateTime name="time1_hziy56" y="0" align="center" size="210" color="#fffb6ff7" formatExp="ifelse(#time_format,'HH:mm','hh:mm')" fontFamily="mitype-normal"/>
+            <DateTime y="240" align="center" size="40" color="#fffb6ff7" formatExp="ifelse(#time_format,'M月d日 EEEE','M月d日 Eaa')" bold="true"/>
+            <DateTime y="305" align="center" size="40" color="#fffb6ff7" format="YY年,N月e" bold="true"/>
         </Group>
     </Group>
     <Group name="blok_4ngtrkrs" visibility="1" x="0" y="0" rotation="0">
-        <FramerateController name="framerate_ani_h9thwf" initPause="true" loop="false">
+        <FramerateController name="framerate_ani_hfew9b" initPause="true" loop="false">
             <ControlPoint frameRate="60" time="0"/>
             <ControlPoint frameRate="60" time="2000"/>
             <ControlPoint frameRate="30" time="2001"/>
@@ -65,47 +65,47 @@
         <Button x="0" y="0" w="1080" h="#screen_height">
             <Triggers>
                 <Trigger action="down,up,cancel">
-                    <AnimationCommand target="framerate_ani_h9thwf" command="play"/>
+                    <AnimationCommand target="framerate_ani_hfew9b" command="play"/>
                 </Trigger>
                 <Trigger action="move">
-                    <AnimationCommand target="framerate_ani_h9thwf" command="play" condition="#frame_rate{55"/>
+                    <AnimationCommand target="framerate_ani_hfew9b" command="play" condition="#frame_rate{55"/>
                 </Trigger>
             </Triggers>
         </Button>
-        <Rectangle x="0" y="0" w="1080" h="#screen_height" fillColor="#000000" alpha="#move_x_h9thwf*100/1080"/>
+        <Rectangle x="0" y="0" w="1080" h="#screen_height" fillColor="#000000" alpha="#move_x_hfew9b*100/1080"/>
         <!-- 快捷功能图标 -->
-        <Group x="#move_x_h9thwf" y="#screen_height-100" alpha="178+#move_y_h9thwf*5">
-            <Image name="left_icon_h9thwf" x="100" y="0" align="center" alignV="center" src="defaultScreen_src/4ngtrkrs_left_icon.png" centerX="#left_icon_h9thwf.bmp_width/2" centerY="#left_icon_h9thwf.bmp_height/2" scale="(1-#move_y_h9thwf/300)"/>
-            <Image name="right_icon_h9thwf" x="1080-100" y="0" align="center" alignV="center" src="defaultScreen_src/4ngtrkrs_right_icon.png" centerX="#right_icon_h9thwf.bmp_width/2" centerY="#right_icon_h9thwf.bmp_height/2" scale="1/((1-#__pluginWallpaper_move/60)*(1-#move_y_h9thwf/300))"/>
+        <Group x="#move_x_hfew9b" y="#screen_height-100" alpha="178+#move_y_hfew9b*5">
+            <Image name="left_icon_hfew9b" x="100" y="0" align="center" alignV="center" src="defaultScreen_src/4ngtrkrs_left_icon.png" centerX="#left_icon_hfew9b.bmp_width/2" centerY="#left_icon_hfew9b.bmp_height/2" scale="(1-#move_y_hfew9b/300)"/>
+            <Image name="right_icon_hfew9b" x="1080-100" y="0" align="center" alignV="center" src="defaultScreen_src/4ngtrkrs_right_icon.png" centerX="#right_icon_hfew9b.bmp_width/2" centerY="#right_icon_hfew9b.bmp_height/2" scale="1/((1-#__pluginWallpaper_move/60)*(1-#move_y_hfew9b/300))"/>
         </Group>
         <!-- 右相机页 -->
-        <Rectangle x="1080+#move_x_h9thwf" w="1080" h="#screen_height" fillColor="#000000" visibility="#move_x_h9thwf{0"/>
-        <Image x="1080+#move_x_h9thwf" y="#screen_height+(140*(#screen_height==1920))" alignV="bottom" src="defaultScreen_src/cam_bg_0.png" visibility="#move_x_h9thwf{0"/>
+        <Rectangle x="1080+#move_x_hfew9b" w="1080" h="#screen_height" fillColor="#000000" visibility="#move_x_hfew9b{0"/>
+        <Image x="1080+#move_x_hfew9b" y="#screen_height+(140*(#screen_height==1920))" alignV="bottom" src="defaultScreen_src/cam_bg_0.png" visibility="#move_x_hfew9b{0"/>
         <!-- 左右滑屏按钮 -->
-        <Group visibility="#move_y_h9thwf==0**#notice_down==0">
+        <Group visibility="#move_y_hfew9b==0**#notice_down==0">
             <!-- 左右移动变量，预留50像素判断是向左右滑动还是上下滑动，当滑动距离超过50时#move_x变量才不为0-->
-            <Var name="move_x_h9thwf" expression="max(min(ifelse(#touch_x}#touch_begin_x,max(#touch_move_h9thwf-50,0),min(#touch_move_h9thwf+50,0))+#move_go_h9thwf,1080),-1080)"/>
-            <Var name="move_go_h9thwf">
+            <Var name="move_x_hfew9b" expression="max(min(ifelse(#touch_x}#touch_begin_x,max(#touch_move_hfew9b-50,0),min(#touch_move_hfew9b+50,0))+#move_go_hfew9b,1080),-1080)"/>
+            <Var name="move_go_hfew9b">
                 <VariableAnimation initPause="true" loop="false">
-                    <Item value="#move_x1_h9thwf" time="0" easeType="QuadEaseOut"/>
-                    <Item value="#move_x2_h9thwf" time="260"/>
+                    <Item value="#move_x1_hfew9b" time="0" easeType="QuadEaseOut"/>
+                    <Item value="#move_x2_hfew9b" time="260"/>
                 </VariableAnimation>
             </Var>
             <Button w="1080" h="#screen_height">
                 <Triggers>
                     <Trigger action="move">
-                        <VariableCommand name="touch_move_h9thwf" expression="#touch_x-#touch_begin_x"/>
+                        <VariableCommand name="touch_move_hfew9b" expression="#touch_x-#touch_begin_x"/>
                     </Trigger>
                     <!-- 判断回弹 -->
                     <Trigger action="up,cancel">
-                        <VariableCommand name="move_x1_h9thwf" expression="#move_x2_h9thwf+ifelse(#touch_x}#touch_begin_x,max(#touch_move_h9thwf-50,0),min(#touch_move_h9thwf+50,0))"/>
-                        <VariableCommand name="move_x2_h9thwf" expression="ifelse(abs(#touch_x-#touch_begin_x)}300,max(min(#move_x2_h9thwf+ifelse(#touch_x}#touch_begin_x,1,-1)*1080,1080),-1080),#move_x2_h9thwf)"/>
-                        <AnimationCommand target="move_go_h9thwf" command="play"/>
-                        <VariableCommand name="touch_move_h9thwf" expression="0"/>
+                        <VariableCommand name="move_x1_hfew9b" expression="#move_x2_hfew9b+ifelse(#touch_x}#touch_begin_x,max(#touch_move_hfew9b-50,0),min(#touch_move_hfew9b+50,0))"/>
+                        <VariableCommand name="move_x2_hfew9b" expression="ifelse(abs(#touch_x-#touch_begin_x)}300,max(min(#move_x2_hfew9b+ifelse(#touch_x}#touch_begin_x,1,-1)*1080,1080),-1080),#move_x2_hfew9b)"/>
+                        <AnimationCommand target="move_go_hfew9b" command="play"/>
+                        <VariableCommand name="touch_move_hfew9b" expression="0"/>
                     </Trigger>
                     <Trigger action="up,cancel" condition="abs(#touch_x-#touch_begin_x)}300">
                         <!-- 不解锁进入相机界面 -->
-                        <IntentCommand action="android.intent.action.MAIN" package="com.android.camera" class="com.android.camera.Camera" condition="#touch_begin_x-#touch_x}300**#move_x_h9thwf{0">
+                        <IntentCommand action="android.intent.action.MAIN" package="com.android.camera" class="com.android.camera.Camera" condition="#touch_begin_x-#touch_x}300**#move_x_hfew9b{0">
                             <Extra name="ShowCameraWhenLocked" type="boolean" expression="1"/>
                             <Extra name="StartActivityWhenLocked" type="boolean" expression="1"/>
                         </IntentCommand>
@@ -114,11 +114,11 @@
             </Button>
         </Group>
         <!-- 解锁 -->
-        <Group visibility="#move_x_h9thwf==0**#notice_down==0">
+        <Group visibility="#move_x_hfew9b==0**#notice_down==0">
             <!-- 上划位移变量，预留50像素判断是向左右滑动还是向上滑动，当向上滑动距离超过50时#move_y变量才不为0 -->
-            <Var name="move_y_h9thwf" expression="min(#touch_y-#touch_begin_y+50,0)*#unlock_flag_h9thwf+#unlock_back_h9thwf"/>
+            <Var name="move_y_hfew9b" expression="min(#touch_y-#touch_begin_y+50,0)*#unlock_flag_hfew9b+#unlock_back_hfew9b"/>
             <!-- 上划解锁未到解锁区域时返回弹动动效 -->
-            <Var name="unlock_back_h9thwf">
+            <Var name="unlock_back_hfew9b">
                 <VariableAnimation initPause="true" loop="false">
                     <Item value="0" time="0"/>
                     <Item value="min(#touch_y-#touch_begin_y+50,0)" time="100" easeType="CubicEaseOut"/>
@@ -131,23 +131,23 @@
             <Button w="1080" h="#screen_height">
                 <Triggers>
                     <Trigger action="down">
-                        <VariableCommand name="unlock_flag_h9thwf" expression="1"/>
+                        <VariableCommand name="unlock_flag_hfew9b" expression="1"/>
                     </Trigger>
                     <Trigger action="up,cancel">
-                        <VariableCommand name="unlock_flag_h9thwf" expression="0"/>
-                        <AnimationCommand target="unlock_back_h9thwf" command="play(ifelse((#touch_begin_y-#touch_y){=300,100,500),ifelse((#touch_begin_y-#touch_y){=300,400,1500))"/>
+                        <VariableCommand name="unlock_flag_hfew9b" expression="0"/>
+                        <AnimationCommand target="unlock_back_hfew9b" command="play(ifelse((#touch_begin_y-#touch_y){=300,100,500),ifelse((#touch_begin_y-#touch_y){=300,400,1500))"/>
                         <ExternCommand command="unlock" condition="ge(#touch_begin_y-#touch_y,300)"/>
                     </Trigger>
                 </Triggers>
             </Button>
         </Group>
-        <Group x="#move_x_h9thwf" y="#move_y_h9thwf" name="container_h9thwf">
-            <Group name="负一屏_h9thwf" x="-1080" visibility="#move_x_h9thwf}0">
+        <Group x="#move_x_hfew9b" y="#move_y_hfew9b" name="container_hfew9b">
+            <Group name="负一屏_hfew9b" x="-1080" visibility="#move_x_hfew9b}0">
                 <Group name="blok_eqqlu15n" visibility="1">
                     <Button/>
                 </Group>
             </Group>
-            <Group name="正一屏_h9thwf" x="0" visibility="#move_x_h9thwf{1080**#move_x_h9thwf}-1080">
+            <Group name="正一屏_hfew9b" x="0" visibility="#move_x_hfew9b{1080**#move_x_hfew9b}-1080">
                 <Group name="blok_en90ei0g" visibility="1">
                     <Button/>
                 </Group>
@@ -155,7 +155,7 @@
         </Group>
     </Group>
     <Group name="blok_ycodbcql" visibility="1">
-        <Text x="250" y="950" color="#f33939" size="50" width="700" multiLine="false" text="聖園ミカが大好きです！" align="left" alignV="top" rotation="0" pivotX="150" pivotY="0" scaleX="1" scaleY="1"/>
+        <Text x="250" y="950" color="#f58f8f" size="50" width="700" multiLine="false" text="聖園ミカが大好きです！" align="left" alignV="top" rotation="0" pivotX="150" pivotY="0" scaleX="1" scaleY="1"/>
     </Group>
     <Group name="blok_vzhc7e8c" visibility="1">
         <Button x="0" y="0" w="1080" h="#screen_height" visibility="#hasnotifications}0">
@@ -165,62 +165,62 @@
                 </Trigger>
             </Triggers>
         </Button>
-        <Var name="w_yp4fzo" expression="1024" type="number"/>
-        <Var name="h_yp4fzo" expression="186" type="number"/>
-        <Var name="scaleX_yp4fzo" type="number" expression="max(0,1024/#w_yp4fzo)" const="true"/>
-        <Var name="scaleY_yp4fzo" type="number" expression="max(0,186/#h_yp4fzo)" const="true"/>
-        <List name="notification_list_yp4fzo" x="20" y="1080" w="#screen_width" scaleX="#scaleX_yp4fzo" scaleY="#scaleY_yp4fzo" maxHeight="int(#h_yp4fzo+20)*4" data="icon:bitmap,title:string,content:string,time:string,info:string,subtext:string,key:int" visibility="#hasnotifications" alpha="255">
+        <Var name="w_ri7mss" expression="1024" type="number"/>
+        <Var name="h_ri7mss" expression="186" type="number"/>
+        <Var name="scaleX_ri7mss" type="number" expression="max(0,1024/#w_ri7mss)" const="true"/>
+        <Var name="scaleY_ri7mss" type="number" expression="max(0,186/#h_ri7mss)" const="true"/>
+        <List name="notification_list_ri7mss" x="20" y="1080" w="#screen_width" scaleX="#scaleX_ri7mss" scaleY="#scaleY_ri7mss" maxHeight="int(#h_ri7mss+20)*4" data="icon:bitmap,title:string,content:string,time:string,info:string,subtext:string,key:int" visibility="#hasnotifications" alpha="255">
             <!-- 居中 -->
-            <Item x="540" y="0" w="#w_yp4fzo" h="int(#h_yp4fzo+20)" align="center">
+            <Item x="540" y="0" w="#w_ri7mss" h="int(#h_ri7mss+20)" align="center">
                 <!-- 因为位置是 （0，0）只需要适配 w h -->
-                <Button x="0" y="0" w="1024" h="(#h_yp4fzo+20)*#scaleY_yp4fzo" alignChildren="true">
+                <Button x="0" y="0" w="1024" h="(#h_ri7mss+20)*#scaleY_ri7mss" alignChildren="true">
                     <Normal>
-                        <Image src="notification_src/vzhc7e8c_notice_bg.png" alpha="255" w="#w_yp4fzo" h="#h_yp4fzo"/>
+                        <Image src="notification_src/vzhc7e8c_notice_bg.png" alpha="255" w="#w_ri7mss" h="#h_ri7mss"/>
                     </Normal>
                     <Pressed>
-                        <Image src="notification_src/vzhc7e8c_notice_bg.png" alpha="230" w="#w_yp4fzo" h="#h_yp4fzo"/>
+                        <Image src="notification_src/vzhc7e8c_notice_bg.png" alpha="230" w="#w_ri7mss" h="#h_ri7mss"/>
                     </Pressed>
                     <!-- 关闭按钮 -->
-                    <Image x="#w_yp4fzo-66" y="#h_yp4fzo/2" align="center" alignV="center" src="notification_src/vzhc7e8c_close.png"/>
+                    <Image x="#w_ri7mss-66" y="#h_ri7mss/2" align="center" alignV="center" src="notification_src/vzhc7e8c_close.png"/>
                     <!-- 通知图标 -->
-                    <Image name="icon_yp4fzo" x="#h_yp4fzo/2" y="#h_yp4fzo/2" w="130" h="130" align="center" alignV="center"/>
-                    <Text name="title_yp4fzo" x="#h_yp4fzo" y="#h_yp4fzo/2-28" w="int(#w_yp4fzo-#h_yp4fzo-132)-(180-(70*#time_format))" h="48" alignV="center" size="42" color="#ffee68bd" marqueeSpeed="30"/>
-                    <Text name="content_yp4fzo" x="#h_yp4fzo" y="#h_yp4fzo/2+30" w="int(#w_yp4fzo-#h_yp4fzo-132)" h="42" alignV="center" size="36" color="#ffee68bd" marqueeSpeed="30" alpha="128"/>
-                    <Text name="time_yp4fzo" x="#w_yp4fzo-132" y="#h_yp4fzo/2-28" align="right" alignV="center" size="36" color="#ffee68bd" alpha="128"/>
+                    <Image name="icon_ri7mss" x="#h_ri7mss/2" y="#h_ri7mss/2" w="130" h="130" align="center" alignV="center"/>
+                    <Text name="title_ri7mss" x="#h_ri7mss" y="#h_ri7mss/2-28" w="int(#w_ri7mss-#h_ri7mss-132)-(180-(70*#time_format))" h="48" alignV="center" size="42" color="#ffee68bd" marqueeSpeed="30"/>
+                    <Text name="content_ri7mss" x="#h_ri7mss" y="#h_ri7mss/2+30" w="int(#w_ri7mss-#h_ri7mss-132)" h="42" alignV="center" size="36" color="#ffee68bd" marqueeSpeed="30" alpha="128"/>
+                    <Text name="time_ri7mss" x="#w_ri7mss-132" y="#h_ri7mss/2-28" align="right" alignV="center" size="36" color="#ffee68bd" alpha="128"/>
                     <Triggers>
                         <Trigger action="down">
                             <VariableCommand name="notice_down" expression="1"/>
                         </Trigger>
                         <Trigger action="up">
                             <IntentCommand action="com.miui.app.ExtraStatusBarManager.action_remove_keyguard_notification" broadcast="true">
-                                <Extra name="com.miui.app.ExtraStatusBarManager.extra_notification_key" type="int" expression="#notification_list_yp4fzo.key"/>
+                                <Extra name="com.miui.app.ExtraStatusBarManager.extra_notification_key" type="int" expression="#notification_list_ri7mss.key"/>
                                 <!-- expression 0 通知消失 1 打开通知 -->
                                 <!-- 132 == 66 * 2 依据 关闭按钮 的位置 -->
-                                <Extra name="com.miui.app.ExtraStatusBarManager.extra_notification_click" type="int" expression="#touch_begin_x{20+1024-132*#scaleX_yp4fzo"/>
+                                <Extra name="com.miui.app.ExtraStatusBarManager.extra_notification_click" type="int" expression="#touch_begin_x{20+1024-132*#scaleX_ri7mss"/>
                             </IntentCommand>
                         </Trigger>
                     </Triggers>
                 </Button>
             </Item>
             <AttrDataBinders>
-                <AttrDataBinder target="icon_yp4fzo" attr="bitmap" data="icon"/>
-                <AttrDataBinder target="title_yp4fzo" attr="text" data="title"/>
-                <AttrDataBinder target="content_yp4fzo" attr="text" data="content"/>
-                <AttrDataBinder target="time_yp4fzo" attr="text" data="time"/>
+                <AttrDataBinder target="icon_ri7mss" attr="bitmap" data="icon"/>
+                <AttrDataBinder target="title_ri7mss" attr="text" data="title"/>
+                <AttrDataBinder target="content_ri7mss" attr="text" data="content"/>
+                <AttrDataBinder target="time_ri7mss" attr="text" data="time"/>
             </AttrDataBinders>
         </List>
     </Group>
     <Group name="blok_qryqjsx9" visibility="1">
-        <Var name="visibility_ngs4mj" expression="ifelse(eqs('可见','可见'),1,0)" type="number"/>
-        <Var name="musicAutoShow_ngs4mj" expression="ifelse(eqs('手动双击显示','常显'),1,eqs('手动双击显示','手动双击显示'),2,0)" type="number" const="true"/>
-        <FramerateController name="panel_framerate_controller_ngs4mj" initPause="true" loop="false">
+        <Var name="visibility_0qgrgr" expression="ifelse(eqs('可见','可见'),1,0)" type="number"/>
+        <Var name="musicAutoShow_0qgrgr" expression="ifelse(eqs('手动双击显示','常显'),1,eqs('手动双击显示','手动双击显示'),2,0)" type="number" const="true"/>
+        <FramerateController name="panel_framerate_controller_0qgrgr" initPause="true" loop="false">
             <ControlPoint frameRate="0" time="0"/>
             <ControlPoint frameRate="60" time="1"/>
             <ControlPoint frameRate="60" time="2000"/>
             <ControlPoint frameRate="0" time="2001"/>
         </FramerateController>
         <!-- 音乐动画 -->
-        <Var name="MusicAni_ngs4mj">
+        <Var name="MusicAni_0qgrgr">
             <VariableAnimation initPause="true" loop="false">
                 <Item value="0" time="0"/>
                 <Item value="0" time="200" easeType="QuadEaseOut"/>
@@ -229,33 +229,33 @@
             </VariableAnimation>
         </Var>
         <!-- 主动唤起音乐界面 -->
-        <Button x="0" y="0" w="1080" h="#screen_height" visibility="#musicAutoShow_ngs4mj==2**#musicDown_ngs4mj==0">
+        <Button x="0" y="0" w="1080" h="#screen_height" visibility="#musicAutoShow_0qgrgr==2**#musicDown_0qgrgr==0">
             <Triggers>
                 <Trigger action="double">
-                    <AnimationCommand target="panel_framerate_controller_ngs4mj" command="play"/>
-                    <AnimationCommand target="MusicAni_ngs4mj" command="play(0,700)" condition="#MusicAni_ngs4mj==0"/>
-                    <AnimationCommand target="MusicAni_ngs4mj" command="play(700,1000)" condition="#MusicAni_ngs4mj==1"/>
+                    <AnimationCommand target="panel_framerate_controller_0qgrgr" command="play"/>
+                    <AnimationCommand target="MusicAni_0qgrgr" command="play(0,700)" condition="#MusicAni_0qgrgr==0"/>
+                    <AnimationCommand target="MusicAni_0qgrgr" command="play(700,1000)" condition="#MusicAni_0qgrgr==1"/>
                 </Trigger>
             </Triggers>
         </Button>
-        <Var name="h_ngs4mj" expression="420" type="number"/>
-        <Group x="60" y="1364+50*(1-#MusicAni_ngs4mj)" rotation="0" w="950" h="#h_ngs4mj" alpha="ifelse(#autoShowVi_ngs4mj==1,255,255*#MusicAni_ngs4mj)" visibility="#visibility_ngs4mj**ifelse(#autoShowVi_ngs4mj==1,1,#MusicAni_ngs4mj)">
-            <Button x="0" y="0" w="950" h="#h_ngs4mj">
+        <Var name="h_0qgrgr" expression="420" type="number"/>
+        <Group x="68" y="1472+50*(1-#MusicAni_0qgrgr)" rotation="0" w="950" h="#h_0qgrgr" alpha="ifelse(#autoShowVi_0qgrgr==1,255,255*#MusicAni_0qgrgr)" visibility="#visibility_0qgrgr**ifelse(#autoShowVi_0qgrgr==1,1,#MusicAni_0qgrgr)">
+            <Button x="0" y="0" w="950" h="#h_0qgrgr">
                 <Triggers>
                     <Trigger action="down">
-                        <AnimationCommand target="panel_framerate_controller_ngs4mj" command="play"/>
-                        <VariableCommand name="musicDown_ngs4mj" expression="1"/>
+                        <AnimationCommand target="panel_framerate_controller_0qgrgr" command="play"/>
+                        <VariableCommand name="musicDown_0qgrgr" expression="1"/>
                     </Trigger>
                     <Trigger action="up,cancel">
-                        <VariableCommand name="musicDown_ngs4mj" expression="0"/>
+                        <VariableCommand name="musicDown_0qgrgr" expression="0"/>
                     </Trigger>
                 </Triggers>
             </Button>
-            <Button w="950" h="#h_ngs4mj"/>
-            <MusicControl name="music_control_ngs4mj" autoShow="true" enableLyric="true" updateLyricInterval="100" defAlbumCover="musicMayEleven_src/album_default.png" alpha="235">
-                <Var name="musicProgressW_ngs4mj" expression="460+int(ifelse(950{950,(950-950)/1.3,0))"/>
-                <Var name="musicProgress_ngs4mj" expression="#music_control_ngs4mj.music_position/#music_control_ngs4mj.music_duration*#musicProgressW_ngs4mj"/>
-                <Var name="albumCoverAni_ngs4mj">
+            <Button w="950" h="#h_0qgrgr"/>
+            <MusicControl name="music_control_0qgrgr" autoShow="true" enableLyric="true" updateLyricInterval="100" defAlbumCover="musicMayEleven_src/album_default.png" alpha="235">
+                <Var name="musicProgressW_0qgrgr" expression="460+int(ifelse(950{950,(950-950)/1.3,0))"/>
+                <Var name="musicProgress_0qgrgr" expression="#music_control_0qgrgr.music_position/#music_control_0qgrgr.music_duration*#musicProgressW_0qgrgr"/>
+                <Var name="albumCoverAni_0qgrgr">
                     <VariableAnimation initPause="true" loop="false">
                         <Item value="0" time="0"/>
                         <Item value="0" time="300" easeType="SineEaseOut"/>
@@ -263,28 +263,28 @@
                         <Item value="0" time="900"/>
                     </VariableAnimation>
                 </Var>
-                <Group y="60*(1-#albumCoverAni_ngs4mj)" w="950" h="158" clip="true" alpha="255*#albumCoverAni_ngs4mj" visibility="#albumCoverAni_ngs4mj">
+                <Group y="60*(1-#albumCoverAni_0qgrgr)" w="950" h="158" clip="true" alpha="255*#albumCoverAni_0qgrgr" visibility="#albumCoverAni_0qgrgr">
                     <Image x="950/2" y="0" align="center" w="950-90" h="158" src="musicMayEleven_src/qryqjsx9_music_bg2.9.png" alpha="128"/>
                     <Group x="950/2-(75+(950-950)/4)">
-                        <Text x="0" y="29" size="35" color="#000000" bold="true" textExp="ifelse(strIsEmpty(@music_control_ngs4mj.title),'暂无歌曲播放',@music_control_ngs4mj.title)" w="#musicProgressW_ngs4mj" marqueeSpeed="30"/>
-                        <Text x="0" y="71" size="25" color="#000000" bold="true" textExp="ifelse(strIsEmpty(@music_control_ngs4mj.artist),'--',@music_control_ngs4mj.artist)" w="#musicProgressW_ngs4mj" marqueeSpeed="30" alpha="178"/>
-                        <Rectangle x="0" y="120" w="#musicProgressW_ngs4mj" h="8" fillColor="#000000" cornerRadius="4,4" alpha="51"/>
-                        <Rectangle x="0" y="120" w="#musicProgress_ngs4mj" h="8" fillColor="#fff22250" cornerRadius="4,4"/>
+                        <Text x="0" y="29" size="35" color="#000000" bold="true" textExp="ifelse(strIsEmpty(@music_control_0qgrgr.title),'暂无歌曲播放',@music_control_0qgrgr.title)" w="#musicProgressW_0qgrgr" marqueeSpeed="30"/>
+                        <Text x="0" y="71" size="25" color="#000000" bold="true" textExp="ifelse(strIsEmpty(@music_control_0qgrgr.artist),'--',@music_control_0qgrgr.artist)" w="#musicProgressW_0qgrgr" marqueeSpeed="30" alpha="178"/>
+                        <Rectangle x="0" y="120" w="#musicProgressW_0qgrgr" h="8" fillColor="#000000" cornerRadius="4,4" alpha="51"/>
+                        <Rectangle x="0" y="120" w="#musicProgress_0qgrgr" h="8" fillColor="#fff797ac" cornerRadius="4,4"/>
                     </Group>
                 </Group>
                 <Image x="950/2" y="158" align="center" w="950" h="210" src="musicMayEleven_src/qryqjsx9_music_bg.9.png" alpha="225"/>
                 <!-- 封面底部投影 -->
-                <Group x="950/2-(429+(950-950)/4)" y="183" w="328" h="185" layered="true" alpha="155*#albumCoverAni_ngs4mj">
+                <Group x="950/2-(429+(950-950)/4)" y="183" w="328" h="185" layered="true" alpha="155*#albumCoverAni_0qgrgr">
                     <Image x="0" y="0" w="328" h="185" srcX="300" srcY="300" srcW="10" srcH="10" src="music_control.artwork" srcType="BitmapVar" pivotX="140" pivotY="92.5" rotationX="180" blur="100"/>
                     <Image w="328" h="185" src="musicMayEleven_src/music_shadow_mask.png" xfermode="dst_in"/>
                 </Group>
                 <!-- 封面 -->
-                <Group x="950/2-(385+(950-950)/4)" pivotX="120" pivotY="328" scale="1+0.15*#albumCoverAni_ngs4mj">
+                <Group x="950/2-(385+(950-950)/4)" pivotX="120" pivotY="328" scale="1+0.15*#albumCoverAni_0qgrgr">
                     <Image x="0" y="88" src="musicMayEleven_src/qryqjsx9_normal_album_cover.png"/>
-                    <Group x="0" y="88" w="240" h="240" layered="true" pivotX="120" pivotY="120" rotation="360*ifelse(#albumCoverAni_ngs4mj,#time/30000,0)" alpha="255*#albumCoverAni_ngs4mj">
+                    <Group x="0" y="88" w="240" h="240" layered="true" pivotX="120" pivotY="120" rotation="360*ifelse(#albumCoverAni_0qgrgr,#time/30000,0)" alpha="255*#albumCoverAni_0qgrgr">
                         <Image name="music_album_cover" x="0" y="0" w="240" h="240"/>
                         <Image w="240" h="240" src="musicMayEleven_src/music_mask.png" xfermode="dst_in"/>
-                        <circle x="240/2" y="240/2" r="22" fillColor="#ffffff" alpha="128*#albumCoverAni_ngs4mj"/>
+                        <circle x="240/2" y="240/2" r="22" fillColor="#ffffff" alpha="128*#albumCoverAni_0qgrgr"/>
                     </Group>
                     <Button x="0" y="88" w="240" h="240">
                         <Triggers>
@@ -295,19 +295,19 @@
                         </Triggers>
                     </Button>
                 </Group>
-                <Var name="buttonDownAni_ngs4mj">
-                    <VariableAnimation name="buttonScaleAniVar_ngs4mj" initPause="true" loop="false">
+                <Var name="buttonDownAni_0qgrgr">
+                    <VariableAnimation name="buttonScaleAniVar_0qgrgr" initPause="true" loop="false">
                         <Item value="0" time="0" easeType="QuadEaseOut"/>
                         <Item value="1" time="200"/>
                         <Item value="0" time="201"/>
                         <Triggers>
-                            <Trigger action="end" condition="#buttonScaleAniVar_ngs4mj.current_frame==-1">
-                                <VariableCommand name="buttonVi_ngs4mj" expression="0"/>
+                            <Trigger action="end" condition="#buttonScaleAniVar_0qgrgr.current_frame==-1">
+                                <VariableCommand name="buttonVi_0qgrgr" expression="0"/>
                             </Trigger>
                         </Triggers>
                     </VariableAnimation>
                 </Var>
-                <circle x="950-(950-950)/4-ifelse(#buttonVi_ngs4mj==1,491,#buttonVi_ngs4mj==2,124,308)" y="198+65" r="65" fillColor="#000000" scale="0.5+1.2*#buttonDownAni_ngs4mj" alpha="ifelse(#buttonDownAni_ngs4mj{0.5,50*#buttonDownAni_ngs4mj,50-50*#buttonDownAni_ngs4mj)"/>
+                <circle x="950-(950-950)/4-ifelse(#buttonVi_0qgrgr==1,491,#buttonVi_0qgrgr==2,124,308)" y="198+65" r="65" fillColor="#000000" scale="0.5+1.2*#buttonDownAni_0qgrgr" alpha="ifelse(#buttonDownAni_0qgrgr{0.5,50*#buttonDownAni_0qgrgr,50-50*#buttonDownAni_0qgrgr)"/>
                 <!-- 上一曲 -->
                 <Button name="music_prev" x="950/2-16+(950-950)/4" y="198" w="130" h="130" align="center" alignChildren="true">
                     <Normal>
@@ -318,8 +318,8 @@
                     </Pressed>
                     <Triggers>
                         <Trigger action="up">
-                            <VariableCommand name="buttonVi_ngs4mj" expression="1"/>
-                            <AnimationCommand target="buttonDownAni_ngs4mj" command="play" condition="#buttonDownAni_ngs4mj==0"/>
+                            <VariableCommand name="buttonVi_0qgrgr" expression="1"/>
+                            <AnimationCommand target="buttonDownAni_0qgrgr" command="play" condition="#buttonDownAni_0qgrgr==0"/>
                         </Trigger>
                     </Triggers>
                 </Button>
@@ -333,25 +333,25 @@
                     </Pressed>
                     <Triggers>
                         <Trigger action="up">
-                            <VariableCommand name="buttonVi_ngs4mj" expression="2"/>
-                            <AnimationCommand target="buttonDownAni_ngs4mj" command="play" condition="#buttonDownAni_ngs4mj==0"/>
+                            <VariableCommand name="buttonVi_0qgrgr" expression="2"/>
+                            <AnimationCommand target="buttonDownAni_0qgrgr" command="play" condition="#buttonDownAni_0qgrgr==0"/>
                         </Trigger>
                     </Triggers>
                 </Button>
                 <!-- 播放	暂停	按钮图片 -->
-                <Button x="950/2+(167+(950-950)/4)" y="198" w="130" h="130" align="center" alignChildren="true" scale="0.5+ifelse(#resumeMusicButtonVi_ngs4mj==1,1,#albumCoverAni_ngs4mj{0.5,1-2*#albumCoverAni_ngs4mj,#albumCoverAni_ngs4mj)/2" alpha="ifelse(#resumeMusicButtonVi_ngs4mj==1,255,#albumCoverAni_ngs4mj{0.5,255-510*#albumCoverAni_ngs4mj,255*#albumCoverAni_ngs4mj)">
+                <Button x="950/2+(167+(950-950)/4)" y="198" w="130" h="130" align="center" alignChildren="true" scale="0.5+ifelse(#resumeMusicButtonVi_0qgrgr==1,1,#albumCoverAni_0qgrgr{0.5,1-2*#albumCoverAni_0qgrgr,#albumCoverAni_0qgrgr)/2" alpha="ifelse(#resumeMusicButtonVi_0qgrgr==1,255,#albumCoverAni_0qgrgr{0.5,255-510*#albumCoverAni_0qgrgr,255*#albumCoverAni_0qgrgr)">
                     <Normal>
-                        <Image x="130/2" y="130/2" align="center" alignV="center" srcExp="'musicMayEleven_src/'+ifelse(#resumeMusicButtonVi_ngs4mj==1||#albumCoverAni_ngs4mj}0.5,'pause','play')+'.png'" alpha="128" pivotX="65" pivotY="65"/>
+                        <Image x="130/2" y="130/2" align="center" alignV="center" srcExp="'musicMayEleven_src/'+ifelse(#resumeMusicButtonVi_0qgrgr==1||#albumCoverAni_0qgrgr}0.5,'pause','play')+'.png'" alpha="128" pivotX="65" pivotY="65"/>
                     </Normal>
                     <Pressed>
-                        <Image x="130/2" y="130/2" align="center" alignV="center" srcExp="'musicMayEleven_src/'+ifelse(#resumeMusicButtonVi_ngs4mj==1||#albumCoverAni_ngs4mj}0.5,'pause','play')+'.png'" alpha="100" pivotX="65" pivotY="65"/>
+                        <Image x="130/2" y="130/2" align="center" alignV="center" srcExp="'musicMayEleven_src/'+ifelse(#resumeMusicButtonVi_0qgrgr==1||#albumCoverAni_0qgrgr}0.5,'pause','play')+'.png'" alpha="100" pivotX="65" pivotY="65"/>
                     </Pressed>
                     <Triggers>
                         <Trigger action="up">
-                            <VariableCommand name="buttonVi_ngs4mj" expression="0"/>
-                            <AnimationCommand target="albumCoverAni_ngs4mj" command="play(300,600)" condition="#albumCoverAni_ngs4mj==0**#music_control_ngs4mj.music_state==0"/>
-                            <AnimationCommand target="albumCoverAni_ngs4mj" command="play(600,900)" condition="#albumCoverAni_ngs4mj==1**#music_control_ngs4mj.music_state==1"/>
-                            <AnimationCommand target="buttonDownAni_ngs4mj" command="play" condition="#buttonDownAni_ngs4mj==0"/>
+                            <VariableCommand name="buttonVi_0qgrgr" expression="0"/>
+                            <AnimationCommand target="albumCoverAni_0qgrgr" command="play(300,600)" condition="#albumCoverAni_0qgrgr==0**#music_control_0qgrgr.music_state==0"/>
+                            <AnimationCommand target="albumCoverAni_0qgrgr" command="play(600,900)" condition="#albumCoverAni_0qgrgr==1**#music_control_0qgrgr.music_state==1"/>
+                            <AnimationCommand target="buttonDownAni_0qgrgr" command="play" condition="#buttonDownAni_0qgrgr==0"/>
                         </Trigger>
                     </Triggers>
                 </Button>

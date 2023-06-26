@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+
+<drawable name="action_bar_bg_light.9.png">nuomi.9.png</drawable>
+<drawable name="action_bar_embeded_tabs_bg_light.9.png">nuomi.9.png</drawable>
+<drawable name="action_bar_split_bg_dark.9.png">nuomi.9.png</drawable>
+<drawable name="action_bar_split_bg_navigation_light.9.png">nuomi.9.png</drawable>
+<drawable name="action_bar_stack_bg_light.9.png">nuomi.9.png</drawable>
+<drawable name="action_bar_title_stack_bg_dark.9.png">nuomi.9.png</drawable>
+<drawable name="action_bar_title_stack_bg_light.9.png">nuomi.9.png</drawable>
+<drawable name="action_mode_bg_light.9.png">nuomi.9.png</drawable>
+<drawable name="action_mode_split_bg_expanded_light.9.png">nuomi.9.png</drawable>
+<drawable name="search_mode_input_bg_light.9.png">nuomi.9.png</drawable>
+
+<drawable name="action_button_bg_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_disable_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_disable_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_normal_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_normal_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_selected_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_selected_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_selected_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_first_selected_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_disable_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_disable_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_normal_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_normal_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_selected_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_selected_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_selected_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_last_selected_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_disable_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_disable_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_normal_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_normal_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_selected_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_selected_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_selected_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_middle_selected_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_single_disable_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_single_normal_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_single_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_button_bg_single_selected_light.9.png">nuomix.9.png</drawable>
+
+<drawable name="action_mode_button_bg_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_disable_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_disable_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_normal_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_normal_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_pressed_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_selected_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_selected_light.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_selected_pressed_dark.9.png">nuomix.9.png</drawable>
+<drawable name="action_mode_button_bg_single_selected_pressed_light.9.png">nuomix.9.png</drawable>
+
+<drawable name="action_mode_title_button_bg_disable_dark.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_button_bg_disable_light.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_button_bg_normal_dark.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_button_bg_normal_light.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_button_bg_pressed_dark.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_button_bg_pressed_light.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_default_button_bg_disable_dark.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_default_button_bg_disable_light.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_default_button_bg_normal_dark.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_default_button_bg_normal_light.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_default_button_bg_pressed_dark.9.png">nuomix_mode.9.png</drawable>
+<drawable name="action_mode_title_default_button_bg_pressed_light.9.png">nuomix_mode.9.png</drawable>
+
+
+
+ <!--miuix appcompat Dialog boxes --> 
+<drawable name="miuix_appcompat_dialog_title_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_dialog_bg_light.9.png">dialog_bg_light.9.png</drawable>  
+<drawable name="miuix_appcompat_dropdown_listview_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_arrow_popup_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_big_backgroud_def.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_dialog_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_dialog_bottom_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_dialog_full_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_dialog_middle_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_dialog_top_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_dropdown_listview_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_menu_dropdown_panel_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_menu_hardkey_panel_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_menu_submenu_background.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_notification_bg_low_normal.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_popup_full_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_small_backgroud_def.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="miuix_appcompat_transportcontrol_bg.9.png">dialog_bg_light.9.png</drawable>  
+<drawable name="miuix_appcompat_dialog_background_material.9.png">dialog_bg_light.9.png</drawable>
+
+<drawable name="drawable name="dialog_title_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dialog_title_bg_light.9.png">dialog_bg_light.9.png</drawable> 
+<drawable name="dialog_bg_light.9.png">dialog_bg_light.9.png</drawable>  
+<drawable name="dropdown_listview_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="arrow_popup_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="big_backgroud_def.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dialog_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dialog_bottom_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dialog_full_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dialog_full_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dialog_middle_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dialog_top_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="dropdown_listview_bg_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="menu_dropdown_panel_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="menu_dropdown_panel_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="menu_hardkey_panel_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="menu_hardkey_panel_holo_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="menu_submenu_background.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="notification_bg_low_normal.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="popup_full_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="popup_full_light.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="small_backgroud_def.9.png">dialog_bg_light.9.png</drawable>
+<drawable name="transportcontrol_bg.9.png">dialog_bg_light.9.png</drawable>  
+<drawable name="dialog_background_material.9.png">dialog_bg_light.9.png</drawable>
+
+
+#BUTTON#
+<drawable name="miuix_appcompat_btn_bg_dialog_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="miuix_appcompat_btn_bg_primary_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="miuix_appcompat_btn_bg_warn_single_disable_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="miuix_appcompat_btn_bg_warn_single_normal_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="miuix_appcompat_btn_bg_warn_single_pressed_light.9.png">btn_bg_dialog.9.png</drawable>
+
+<drawable name="btn_bg_dialog_light.9.png">btn_bg_dialog.9.png</drawable>
+
+<drawable name="bg_focus_btn_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="bg_focus_btn_unclickable_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="bg_screen_zoom_icons.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="borderlayout_bg.9.png">btn_bg_dialog.9.png</drawable>
+
+<drawable name="btn_bg_dialog_single_normal_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="btn_bg_dialog_single_pressed_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="btn_bg_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="btn_bg_primary_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="btn_bg_warn_single_disable_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="btn_bg_warn_single_normal_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="btn_bg_warn_single_pressed_light.9.png">btn_bg_dialog.9.png</drawable>
+<drawable name="btn_bg_single_normal_light.9.png">btn_bg_dialog.9.png</drawable>
+
+</MIUI_Theme_Values>

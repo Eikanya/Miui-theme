@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<MIUI_Theme_Values>
+     <color name="splash_cover_bg_color" package="xiaomi">#0d000000</color>
+     <color name="splash_gradient_bg" package="xiaomi">>#0d000000</color>
+     <color name="splash_cover_bg" package="xiaomi">#0d000000</color>
+     <dimen name="market_splash_cover_bg_height">2400px</dimen>
+    <dimen name="market_splash_cover_bg_width">1080px</dimen>
+    <dimen name="market_splash_cover_logo_height">2400px</dimen>
+    <dimen name="market_splash_cover_logo_top_margin">0px</dimen>
+    <dimen name="market_splash_cover_logo_width">1080px</dimen>
+</MIUI_Theme_Values>

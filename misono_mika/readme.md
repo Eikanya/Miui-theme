@@ -5,7 +5,7 @@ Miui14第三方主题。misono_mika圣园未花.需要root破解系统主题导�
 
 
 ### 文件构造说明
-1. boots 开机logo
+1. boots                   开机logo
 2. clock_2x4 时钟
 3. com.android.contacts   联系人界面 
 4. com.android.mms        短信界面
@@ -23,10 +23,19 @@ Miui14第三方主题。misono_mika圣园未花.需要root破解系统主题导�
 16. preview               预览图片
 17. wallpaper             壁纸
 18. com.miui.gallery      相册页面
-19. com.android.thememanager 主题壁纸面
+19. com.android.thememanager 主题壁纸界面
 20. aod                     息屏
 21. videowallpaper         动态壁纸
 22. com.miui.securitycenter 安全中心页面
+23. com.android.calendar    日历
+24. com.android.email       邮箱
+25. com.android.phone       SIM界面
+26. com.miui.cloudservice  设置-云服务
+27. com.miui.packageinstaller  安装包界面
+28. com.xiaomi.account      设置-账号
+29. com.xiaomi.bluetooth    蓝牙
+30. com.xiaomi.market       应用商城
+
 
 
 ###

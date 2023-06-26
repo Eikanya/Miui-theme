@@ -99,6 +99,8 @@
   <color name="visual_check_textview_checked_text_color" >#fffb4b4b</color>
   <color name="icon_title_text" >#fff084af</color>
   <color name="icon_title_text_dark" >#fff084af</color>
+  <color name="task_manager_text" >#fff08ea7</color>
+  <color name="txt_memory_info_color" >#fff08ea7</color>
   <dimen name="folder_bottom_padding" >50dip</dimen>
   <dimen name="folder_padding_top" >100dip</dimen>
   <dimen name="folder_content_margin_bottom" >0dip</dimen>
