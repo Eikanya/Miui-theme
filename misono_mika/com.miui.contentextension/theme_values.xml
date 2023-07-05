@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<string name="taplus_settings_title">传送门</string>
+
+<color name="miuix_appcompat_action_bar_search_mask_color_light">#00ffffff</color>搜索薄幕
+<color name="color_card_bg">#900000ff</color>传送门触发颜色
+<color name="segment_bg_selected">#996fa3fc</color>
+<color name="segment_bg_unselected">#66f0f0f0</color>
+
+<color name="white">#00befda4</color>
+<color name="shrink_bg">#00befda4</color>
+<color name="settings_bg">#00befda4</color>
+<color name="segment_text_selected">#00befda4</color>
+<color name="primary_text_default_material_dark">#00befda4</color>
+<color name="miuix_state_Image_color_dark">#00befda4</color>
+<color name="miuix_sbl_white">#00befda4</color>
+<color name="miuix_preference_connect_title_connected_color">#00befda4</color>
+<color name="miuix_preference_connect_icon_disconnected_color_dark">#00befda4</color>
+<color name="miuix_preference_connect_icon_connected_color">#00befda4</color>
+<color name="miuix_appcompat_white">#00befda4</color>
+<color name="miuix_appcompat_spinner_item_normal_bg_color_light">#00befda4</color>
+
+<color name="miuix_appcompat_seekbar_progress_color">#00befda4</color>
+<color name="miuix_appcompat_number_picker_highlight_region_bg_color">#00befda4</color>
+<color name="miuix_appcompat_menu_list_text_color_normal_dark">#00befda4</color>
+<color name="miuix_appcompat_filter_sort_tab_view_bg_color_light">#00befda4</color>
+<color name="miuix_appcompat_filter_sort_tab_view_background_normal_light">#00befda4</color>
+<color name="miuix_appcompat_dropdown_popup_list_item_bg_normal_light">#00befda4</color>
+<color name="miuix_appcompat_dropdown_popup_backgroud_color_light">#00befda4</color>
+<color name="miuix_appcompat_dialog_bg_color_light">#00befda4</color>
+<color name="miuix_appcompat_checkbox_btn_stroke_color_light">#00befda4</color>
+<color name="miuix_appcompat_checkbox_btn_stroke_color_dark">#00befda4</color>
+<color name="miuix_appcompat_checkbox_btn_on_foreground_color_light">#00befda4</color>
+<color name="miuix_appcompat_checkbox_btn_on_foreground_color_dark">#00befda4</color>
+<color name="miuix_appcompat_checkbox_btn_disable_background_color_dark">#00befda4</color>
+<color name="miuix_appcompat_button_text_color_warning_normal_light">#00befda4</color>
+<color name="miuix_appcompat_button_text_color_warning_normal_dark">#00befda4</color>
+<color name="miuix_appcompat_button_text_color_guide_normal_light">#00befda4</color>
+<color name="miuix_appcompat_button_text_color_guide_normal_dark">#00befda4</color>
+<color name="miuix_appcompat_background_dark">#00befda4</color>
+<color name="miuix_appcompat_arrow_popup_triangle_color_light">#00befda4</color>
+<color name="miuix_appcompat_action_mode_title_default_button_text_color_pressed_light">#00befda4</color>
+<color name="miuix_appcompat_action_mode_title_default_button_text_color_normal_light">#00befda4</color>
+<color name="miuix_appcompat_action_mode_title_default_button_text_color_disable_light">#00befda4</color>
+
+<color name="miuix_appcompat_action_mode_button_text_color_normal_dark">#00befda4</color>
+<color name="miuix_appcompat_action_button_text_color_pressed_dark">#00befda4</color>
+<color name="miuix_appcompat_action_button_text_color_normal_dark">#00befda4</color>
+<color name="miuix_appcompat_action_bar_title_text_color_dark">#00befda4</color>
+<color name="miuix_appcompat_action_bar_tab_text_color_pressed_dark">#00befda4</color>
+<color name="miuix_appcompat_action_bar_tab_text_color_selected_dark">#00befda4</color>
+<color name="miuix_appcompat_action_bar_tab_collapse_text_color_selected_dark">#00befda4</color>
+<color name="miuix_appcompat_action_bar_tab_collapse_text_color_pressed_dark">#00befda4</color>
+<color name="applock_list_view_header">#00befda4</color>
+<color name="miuix_appcompat_action_bar_subtitle_text_dark">#00befda4</color>
+
+
+
+
+
+
+</MIUI_Theme_Values>

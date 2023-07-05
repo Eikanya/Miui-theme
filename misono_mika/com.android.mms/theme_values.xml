@@ -17,7 +17,7 @@
   <color name="miuix_appcompat_action_bar_tab_text_color_normal_light" >#99000000</color>
   <color name="miuix_appcompat_dialog_default_message_text_color_light" >#99000000</color>
   <color name="tab_normal_text_color" >#66000000</color>
-  <color name="tab_active_text_color" >#ccec5ba1</color>
+  <color name="tab_active_text_color" >#e5ec5ba1</color>
   <color name="action_bar_tab_text_color_selected_light" package="miui">#ff0d84ff</color>
   <color name="highlight_normal_light" package="miui">#ff0d84ff</color>
   <color name="text_color_mi_recipient" >#ff0d84ff</color>

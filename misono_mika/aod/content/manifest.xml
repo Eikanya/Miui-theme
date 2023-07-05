@@ -19,14 +19,14 @@
 		<DateTime x="540" y="150" align="center" alignV="center" color="#dc72a2" size="50" format="YY年 N月e" visibility="#lunar_calendar_enable"/>
 	</Group>
 	<!-- 电量 -->
-	<Var name="batteryColor" type="string" expression="ifelse(#battery_state==1||#battery_state==3,'#d1467e','#ffffffff')" />
+	<Var name="batteryColor" type="string" expression="ifelse(#battery_state==1||#battery_state==3,'#dc72a2','#dc72a2')" />
 	<Group x="540-#batteryLevel.text_width/2-10" y="600-!#lunar_calendar_enable*60" w="76" h="34" align="center" alignV="center" visibility="#battery_enable">
 		<Image x="0" y="0" src="battery/frame.png" />
 		<Group x="8" y="8" w="0.54*#battery_level" h="18" clip="true" >
 			<Rectangle w="54" h="18" fillColor="@batteryColor" cornerRadius="3"/>
 		</Group>
 		<Image x="35" y="17" align="center" alignV="center" src="battery/charge.png" visibility="#battery_state==1||#battery_state==3" />
-		<Text name="batteryLevel" x="96" y="17" alignV="center" color="#ffffffff" size="50" textExp="#battery_level+'%'"/>
+		<Text name="batteryLevel" x="96" y="17" alignV="center" color="#dc72a2" size="50" textExp="#battery_level+'%'"/>
 	</Group>
 
 	<!-- 通知图标之间的间隙 -->

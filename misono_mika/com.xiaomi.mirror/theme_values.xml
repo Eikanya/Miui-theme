@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Values>
+<color name="white">#99ffffff</color>提示文字与功能框背景色
+<color name="button_text">#99ff0000</color>
+<color name="show_screen_display_color">#990000ff</color>
+<color name="show_screen_history_color">#99000000</color>
+<color name="button_equal_text_color">#ff000000</color>
+<color name="calculator_background">#40e3e7e9</color>  
+<color name="miuix_appcompat_button_bg_color_normal_light">#99ff0000</color>
+<color name="dialog_btn">#99ffffff</color>
+<color name="cardview_light_background">#99ffffff</color>
+
+
+<color name="settings_area_background">#33000000</color>
+<color name="miuix_preference_connect_bg_disconnected_color_light">#33000000</color>
+
+
+
+<color name="black">#99ffffff</color>
+<color name="item_uncheck">#99ffffff</color>
+<color name="miuix_appcompat_action_bar_search_mask_color_dark">#99ffffff</color>
+<color name="miuix_appcompat_background_light">#99ffffff</color>
+<color name="miuix_appcompat_black">#99ffffff</color>
+</MIUI_Theme_Values>

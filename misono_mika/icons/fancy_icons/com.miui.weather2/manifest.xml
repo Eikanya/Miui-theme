@@ -9,5 +9,5 @@
     </ContentProviderBinder>
   </VariableBinders>
   <Image src="weather_bg.png" x="0" y="0"/>
-  <ImageChars charNameMap="00,11,22,33,44,55,66,77,88,99,°d,-m" space="2" src="num.png" string="#weather_temperature+&apos;°&apos;" x="72-42" y="84"/>
+  <ImageChars charNameMap="00,11,22,33,44,55,66,77,88,99,°d,-m" space="2" src="num.png" string="#weather_temperature+&apos;°&apos;" x="72-40" y="80"/>
 </Icon>

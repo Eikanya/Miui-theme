@@ -5,7 +5,8 @@
 	<drawable name="miui_version_logo_dev.png">miui_version_logo.png</drawable>
 
 	<!-- 大背景 -->
-	<drawable name="miuix_appcompat_settings_window_bg_light.9.png">miuix_appcompat_window_bg_light.9.png</drawable>	<drawable name="window_bg_light.9.png">miuix_appcompat_window_bg_light.9.png</drawable>
+	<drawable name="miuix_appcompat_settings_window_bg_light.9.png">miuix_appcompat_window_bg_light.9.png</drawable>	
+	<drawable name="window_bg_light.9.png">miuix_appcompat_window_bg_light.9.png</drawable>
 	<drawable name="settings_window_bg_light.9.png">miuix_appcompat_window_bg_light.9.png</drawable>
 	<!-- 顶栏 -->
 	<drawable name="action_bar_embeded_tabs_bg_light.9.png">action_bar_bg_light.9.png</drawable>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MIUI_Theme_Values>
+
+   <color name="v8_theme_color_white">#00ffffff</color>
+    <color name="miui_volume_tint_light">#ffebf6fc</color>
+    <color name="theme_blue_grid_bg_color">#00ecf8ff</color>
+    <color name="theme_yellow_text_bg_color">#00f7f7e8</color>
+    <color name="theme_yellow_grid_bg_color">#00ffffea</color>
+    <color name="theme_green_text_bg_color">#00f0fdf0</color>
+    <color name="theme_green_grid_bg_color">#00effdef</color>
+    <color name="theme_red_text_bg_color">#00fff6ef</color>
+    <color name="theme_red_grid_bg_color">#00feeee5</color>
+  
+<color name="homepage_primary_color">#00fffffff</color>主界面背景颜色
+<color name="action_bar_tab_title_highlight_text_color">#ff000000</color>顶部只要文字颜色
+<color name="action_bar_title_text_color">#80000000</color>顶部只要次字颜色
+<color name="audio_add_menu_color_n">#802BAAFF</color>便签右下角按钮颜色
+<color name="audio_add_menu_color_p"></color>
+<color name="theme_main_color">#90000000</color>编辑便签界面顶部图标颜色
+<color name="v8_theme_content_bg_color">#00ffffff</color>便签条背景颜色
+<color name="white">#00000000</color>
+<color name="drop_down_item_highlight_color">#ff000000</color>便签二级主要文字颜色
+<color name="drop_down_popup_window_background_color">#00ffffff</color>便签二级界面背景
+<color name="drop_down_popup_window_mask_color">#00000000</color>便签二级界面下层背景
+<color name="folder_drop_down_footer_bg_color">#20a2a2a2</color>便签二级界面按钮颜色
+<color name="folder_drop_down_footer_bg_color_p">#30a2a2a2</color>便签二级界面按钮按下颜色
+<color name="folder_drop_down_footer_title_color">#ff000000</color>便签二级界面按钮里文字颜色
+<color name="preference_category_text_color_light">#80000000</color>
+
+<color name="background_color">#00000000</color>
+<color name="miuix_appcompat_button_bg_color_normal_light">#98F0F0F0</color>
+<color name="miuix_appcompat_button_bg_color_warn_normal_light">#980D84FF</color>
+
+
+<color name="miuix_preference_black">#00000000</color>
+<color name="miuix_preference_white">#00ffffff</color>
+<color name="black">#001E2125</color>
+<color name="black" package="android">#001E2125</color> 
+<color name="miuix_preference_checkable_item_fill_color_checked_light">#006E0250</color> 
+<color name="miuix_preference_checkable_item_fill_color_checked_dark">#000A3109</color>
+<color name="miuix_preference_first_last_divider_line_dark">#000224C5</color>
+<color name="miuix_preference_first_last_divider_line_light">#00E68F8C</color>
+    
+<color name="miui_volume_color_accent">#aa80ED99</color>音量条颜色    
+    
+    
+    
+    
+<!--音量条（来自北梦大大的故里2.2） -->
+
+<dimen name="miui_volume_column_height_expanded">290dp</dimen>三个音量条高度
+
+<dimen name="miui_volume_timer_corner_radius">12.449984dp</dimen>
+<dimen name="control_corner_radius">12.406679dp</dimen>
+
+<dimen name="miui_volume_bg_radius">12.449984dp</dimen>
+<dimen name="miui_volume_bg_radius_expanded">12.449984dp</dimen>
+
+</MIUI_Theme_Values>

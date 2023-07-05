@@ -4,11 +4,7 @@
 <!--开关背景-->
 <color name="miuix_appcompat_sliding_button_bar_on_light">#dd8CFFFF</color>
 <color name="sliding_button_bar_on_light" package="miui">#dd8CFFFF</color>
-
-
-
 <color name="miuix_preference_white">#00ff0000</color>
-
   
 <color name="homepage_primary_color">#00fffffff</color>主界面背景颜色
 <color name="action_bar_tab_title_highlight_text_color">#ff000000</color>顶部只要文字颜色

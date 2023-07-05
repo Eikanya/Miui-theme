@@ -25,7 +25,7 @@ Miui14第三方主题，测试机型小米11。需要root破解系统主题导�
 18. com.miui.gallery      相册页面
 19. com.android.thememanager 主题壁纸界面
 20. aod                     息屏
-21. videowallpaper         动态壁纸
+21. .videowallpaper         动态壁纸
 22. com.miui.securitycenter 安全中心页面
 23. com.android.calendar    日历
 24. com.android.email       邮箱
@@ -35,6 +35,8 @@ Miui14第三方主题，测试机型小米11。需要root破解系统主题导�
 28. com.xiaomi.account      设置-账号
 29. com.xiaomi.bluetooth    蓝牙
 30. com.xiaomi.market       应用商城
+31. com.miui.contentextension 传送门
+32. com.xiaomi.misettings   屏幕时间
 
 ## 
 1. 主题部分模块可能没有适配好，夜间模式没有适配，一般就是制作一张带有暗色的图片（添加50%透明的的黑色遮罩）.
