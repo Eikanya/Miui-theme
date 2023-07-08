@@ -33,7 +33,7 @@
 <color name="white">#FF8086FF</color>功能变声器等标题颜色
 <color name="gamebox_func_text">#FF8086FF</color>游戏侧边栏快捷开关下方字体颜色 -->
   
-  存储界面
+  <!-- 存储界面 -->
 <color name="storage_app_detail_bg">#00762752</color>
 <color name="storage_activity_main_bg">#00000000</color>
 <color name="storage_main_top_title_bg">#00598624</color>
@@ -47,12 +47,11 @@
 <color name="first_aid_kit_bgcolor">#00000000</color>
 <color name="white" package="miui">#00000000</color>
 <color name="pc_main_scan_backgound_color">#00000000</color>
- 
 <color name="notification_title_text_color">#00000000</color>
 <color name="notification_title_divide_color">#00000000</color>
 <integer name="window_translucent_status" package="miui">#00000000</integer>
-  <color name="optmizing_bg">#00ffffff</color>
- <drawable name="divider">#00000000</drawable>
+<color name="optmizing_bg">#00ffffff</color>
+<drawable name="divider">#00000000</drawable>
 <integer name="window_translucent_status" package="miui">#00000000</integer>
 <color name="separator_line_light_gray">#00000000</color>
 <color name="app_manager_white">#00000000</color>	  
@@ -60,27 +59,18 @@
 <color name="first_aid_kit_bgcolor">#00000000</color>
 <color name="white" package="miui">#00000000</color>
 <color name="pc_main_scan_backgound_color">#00000000</color>
-
 <string name="app_name_securitycenter">手机管家</string>
 <string name="menu_text_antivirus">手机管家</string>
 <string name="app_name_securitycenter">手机管家</string>
 <color name="optmizing_bg">#00ffffff</color>
-  
-  <color name="bg_camera_occupy">#ff00ffff</color>相机背景
+<color name="bg_camera_occupy">#ff00ffff</color>相机背景
 <color name="bg_location_occupy">#ff33ff00</color>定位背景
 <color name="bg_audio_occupy">#ff1a9390</color>麦克风背景
 <color name="pc_main_button_color">#66f5f5f5</color>一键省电按钮背景
-
-<string name="auto_booster_suc"> </string>
-<string name="gb_performance_tips">高发热</string>
-<string name="gb_performance_balance_tips">低性能</string>
-
 <color name="miuix_preference_white">#00000000</color>
-
 <color name="nd_step_dial_bg_color">#99000000</color>
 <color name="nd_speed_dial_bg_color">#99EAEAEA</color>
 <color name="gb_privacy_dialog_title_color">#99ffffff</color>
-
 <dimen name="gb_vc_record_circle_size">0dp</dimen>
 <dimen name="gamebox_second_recent_content_app_h">0dp</dimen>
 
@@ -123,17 +113,12 @@
 <color name="miuix_preference_checkable_item_fill_color_normal_light">#00805A5C</color>
 
 <color name="xspace_list_title">#00ffffff</color>
-
 <color name="miuix_appcompat_white">#00F76353</color>
 <color name="app_behavior_list_head_bg">#001E2125</color>
  <color name="applock_list_view_header">#001E2125</color>
-
-
 <color name="pc_float_action_button">#00C133A0</color>
-
 <color name="miuix_appcompat_dropdown_popup_list_item_bg_checked_light">#00000000</color>
 <color name="miuix_appcompat_dropdown_popup_list_item_bg_checked_dark">#00000000</color>
-
 <color name="ew_monitor_pure_bg..">#00993092</color>
 <color name="ad_color_item_btn_text">#990000ff</color>
 <color name="app_manager_running_text_color">#99000000</color>
@@ -144,7 +129,6 @@
 <color name="first_aid_box_summary_textcolor">#99ffffff</color>
 <color name="icon_un_select_color">#99ffffff</color>
 <color name="main_btn_action_bule">#99ffffff</color>
-
 <color name="storage_app_detail_item_bg_normal">#00000000</color>文字背景之一
 <color name="white">#ff4B5CC4</color>
 <color name="gamebox_func_text">#ff8C4356</color>
@@ -156,7 +140,6 @@
 <color name="apk_list_item_background_pressed">#99F2F2F2</color>
 <color name="v_bg_color_p">#99F2F2F2</color>
 <color name="miuix_appcompat_dialog_bg_color_light">#00000000</color>
- 
 <color name="miuix_appcompat_button_bg_primary_color_normal_light">#00000000</color>
 <color name="miuix_appcompat_button_bg_color_normal_light">#00000000</color>
 

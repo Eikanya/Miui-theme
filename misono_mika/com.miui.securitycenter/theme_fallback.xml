@@ -1,12 +1,22 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <MIUI_Theme_Values>
 <!--混淆对应-->
-<drawable name="CL.9.png">drawable-xxhdpi/window_bg_light.9.png</drawable>
-<drawable name="CLD.9.png">drawable-xxhdpi/window_bg_light.9.png</drawable>
+<!--<drawable name="CL.9.png">drawable-xxhdpi/window_bg_light.9.png</drawable>
+<drawable name="CLD.9.png">drawable-xxhdpi/window_bg_light.9.png</drawable>-->
+<drawable name="NoX.9.png">drawable-xxhdpi/miuix_appcompat_window_search_mask.9.png</drawable>
+<drawable name="xs_.9.png">drawable-xxhdpi/miuix_appcompat_floating_window_bg_light.9.png</drawable>
 <drawable name="n31.9.png">drawable-xxhdpi/miuix_appcompat_immersion_window_bg_light.9.png</drawable>
 <drawable name="NQ0.9.png">drawable-xxhdpi/miuix_appcompat_dialog_round_bg_light.9.png</drawable>
 <drawable name="CpL.9.png">drawable-xxhdpi/miuix_appcompat_dialog_round_bg_light.9.png</drawable>
 <drawable name="Qit.9.png">drawable-xxhdpi/miuix_appcompat_dialog_round_bg_light.9.png</drawable>
+<drawable name="3eB.png">drawable-xxhdpi/gb_voice_changer_window_bg.png</drawable>
+
+
+<drawable name="DOX.9.png">drawable-xxhdpi/gb_settings_tab_bg.9.png</drawable>
+<drawable name="4k1.9.png">drawable-xxhdpi/gb_settings_tab_bg.9.png</drawable>
+<drawable name="gb_bg.9.png">gb_settings_tab_bg.9.png</drawable>
+
+
 
 
 
@@ -42,12 +52,18 @@
 <drawable name="Ypg.png">drawable-xxhdpi/icon_warnning.png</drawable>
 <drawable name="Mcp.png">drawable-xxhdpi/icon_warnning.png</drawable>
 
-<drawable name="TgO.9.png">drawable-xxhdpi/shape_new_turbo_bg.9.png</drawable>
 
 
 <drawable name="GXA.png">drawable-xxhdpi/gamemode_toast_logo.png</drawable>
-<drawable name="6Rj.9.png">drawable-xxhdpi/gd_shape_dock_main_bg.9.png</drawable>
 <drawable name="文件.png">drawable-xxhdpi/次级.png</drawable>
+<drawable name="1MC.webp">drawable-xxhdpi/ew_monitor_banner_bg.webp</drawable>
+
+
+
+
+
+<drawable name="6Rj.9.png">v9E.9.png</drawable>
+<drawable name="TgO.9.png">P_7.9.png</drawable>
 
 
 
@@ -55,12 +71,13 @@
 
 
 
+<drawable name="T3S.webp">drawable-xxhdpi/na_nd_dashboard_pointer.webp</drawable>
+<drawable name="So1.webp">drawable-xxhdpi/na_nd_dashboard_pointer.webp</drawable>
+<drawable name="ulc.webp">drawable-xxhdpi/na_nd_dashboard_bg.webp</drawable>
+<drawable name="MaZ.webp">drawable-xxhdpi/na_nd_dashboard_bg.webp</drawable>
 
-
-
-
-
-
+<drawable name="文件.webp">drawable-xxhdpi/次级.webp</drawable>
+<drawable name="文件.webp">drawable-xxhdpi/次级.webp</drawable>
 
 
 
